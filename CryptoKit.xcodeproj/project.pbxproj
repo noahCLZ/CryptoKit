@@ -7,16 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F59CED70223D8388007CF454 /* SecureItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED6F223D8388007CF454 /* SecureItem.swift */; };
+		F59CED78223D914E007CF454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED77223D914E007CF454 /* AppDelegate.swift */; };
+		F59CED7A223D914E007CF454 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED79223D914E007CF454 /* ViewController.swift */; };
+		F59CED7D223D914E007CF454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59CED7B223D914E007CF454 /* Main.storyboard */; };
+		F59CED7F223D9152007CF454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59CED7E223D9152007CF454 /* Assets.xcassets */; };
+		F59CED82223D9152007CF454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59CED80223D9152007CF454 /* LaunchScreen.storyboard */; };
+		F59CED8C223DDB5F007CF454 /* KeychainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED8B223DDB5F007CF454 /* KeychainError.swift */; };
+		F59CED8E223DDEF1007CF454 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED8D223DDEF1007CF454 /* Algorithm.swift */; };
+		F59CED91223EB9DF007CF454 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED90223EB9DF007CF454 /* PrivateKey.swift */; };
+		F59CED93223EBD67007CF454 /* PrivateKey+Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED92223EBD67007CF454 /* PrivateKey+Rsa.swift */; };
+		F59CED97223F3DFB007CF454 /* CommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED96223F3DFB007CF454 /* CommonCrypto.swift */; };
+		F59CED9A223F4299007CF454 /* RSACryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED99223F4299007CF454 /* RSACryptor.swift */; };
+		F59CED9E223F5040007CF454 /* CCError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED9D223F5040007CF454 /* CCError.swift */; };
+		F59CEDA0223F782C007CF454 /* ASN1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED9F223F782C007CF454 /* ASN1.swift */; };
+		F59CEDA6223FA703007CF454 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CEDA5223FA703007CF454 /* Key.swift */; };
+		F59CEDA8223FAE30007CF454 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CEDA7223FAE30007CF454 /* Digest.swift */; };
+		F59CEDA9223FB4C9007CF454 /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D857AB223CF081003350B9 /* CryptoKit.framework */; };
+		F59CEDAA223FB4C9007CF454 /* CryptoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F5D857AB223CF081003350B9 /* CryptoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F5D857B0223CF081003350B9 /* CryptoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D857AE223CF081003350B9 /* CryptoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5D85852223D0985003350B9 /* Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85851223D0985003350B9 /* Rsa.swift */; };
+		F5D85858223D2685003350B9 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85857223D2685003350B9 /* PublicKey.swift */; };
+		F5D8585A223D314F003350B9 /* PublicKey+Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85859223D314F003350B9 /* PublicKey+Rsa.swift */; };
+		F5D8586C223D6F3D003350B9 /* RsaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D8586B223D6F3D003350B9 /* RsaTests.swift */; };
+		F5D8586E223D6F3D003350B9 /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D857AB223CF081003350B9 /* CryptoKit.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F59CED87223D9158007CF454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D857A2223CF081003350B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F59CED74223D914E007CF454;
+			remoteInfo = Example;
+		};
+		F59CEDAB223FB4C9007CF454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D857A2223CF081003350B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D857AA223CF081003350B9;
+			remoteInfo = CryptoKit;
+		};
+		F5D8586F223D6F3D003350B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D857A2223CF081003350B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D857AA223CF081003350B9;
+			remoteInfo = CryptoKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F59CEDAD223FB4C9007CF454 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F59CEDAA223FB4C9007CF454 /* CryptoKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F59CED6F223D8388007CF454 /* SecureItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureItem.swift; sourceTree = "<group>"; };
+		F59CED75223D914E007CF454 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59CED77223D914E007CF454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F59CED79223D914E007CF454 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F59CED7C223D914E007CF454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F59CED7E223D9152007CF454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F59CED81223D9152007CF454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F59CED83223D9152007CF454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59CED8B223DDB5F007CF454 /* KeychainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainError.swift; sourceTree = "<group>"; };
+		F59CED8D223DDEF1007CF454 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		F59CED90223EB9DF007CF454 /* PrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
+		F59CED92223EBD67007CF454 /* PrivateKey+Rsa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrivateKey+Rsa.swift"; sourceTree = "<group>"; };
+		F59CED96223F3DFB007CF454 /* CommonCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCrypto.swift; sourceTree = "<group>"; };
+		F59CED99223F4299007CF454 /* RSACryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSACryptor.swift; sourceTree = "<group>"; };
+		F59CED9D223F5040007CF454 /* CCError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCError.swift; sourceTree = "<group>"; };
+		F59CED9F223F782C007CF454 /* ASN1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASN1.swift; sourceTree = "<group>"; };
+		F59CEDA5223FA703007CF454 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		F59CEDA7223FAE30007CF454 /* Digest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digest.swift; sourceTree = "<group>"; };
 		F5D857AB223CF081003350B9 /* CryptoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D857AE223CF081003350B9 /* CryptoKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CryptoKit.h; sourceTree = "<group>"; };
 		F5D857AF223CF081003350B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D85851223D0985003350B9 /* Rsa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rsa.swift; sourceTree = "<group>"; };
+		F5D85857223D2685003350B9 /* PublicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicKey.swift; sourceTree = "<group>"; };
+		F5D85859223D314F003350B9 /* PublicKey+Rsa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PublicKey+Rsa.swift"; sourceTree = "<group>"; };
+		F5D85869223D6F3D003350B9 /* RsaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RsaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D8586B223D6F3D003350B9 /* RsaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RsaTests.swift; sourceTree = "<group>"; };
+		F5D8586D223D6F3D003350B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F59CED72223D914E007CF454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59CEDA9223FB4C9007CF454 /* CryptoKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5D857A8223CF081003350B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -24,13 +117,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5D85866223D6F3D003350B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D8586E223D6F3D003350B9 /* CryptoKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F59CED76223D914E007CF454 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				F59CED77223D914E007CF454 /* AppDelegate.swift */,
+				F59CED79223D914E007CF454 /* ViewController.swift */,
+				F59CED7B223D914E007CF454 /* Main.storyboard */,
+				F59CED7E223D9152007CF454 /* Assets.xcassets */,
+				F59CED80223D9152007CF454 /* LaunchScreen.storyboard */,
+				F59CED83223D9152007CF454 /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		F59CED8F223E8482007CF454 /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				F5D85851223D0985003350B9 /* Rsa.swift */,
+				F5D85859223D314F003350B9 /* PublicKey+Rsa.swift */,
+				F59CED92223EBD67007CF454 /* PrivateKey+Rsa.swift */,
+			);
+			path = RSA;
+			sourceTree = "<group>";
+		};
+		F59CED98223F410E007CF454 /* CommonCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				F59CED96223F3DFB007CF454 /* CommonCrypto.swift */,
+				F59CED99223F4299007CF454 /* RSACryptor.swift */,
+				F59CEDA7223FAE30007CF454 /* Digest.swift */,
+			);
+			path = CommonCrypto;
+			sourceTree = "<group>";
+		};
+		F59CEDAE223FEFDD007CF454 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F59CED8B223DDB5F007CF454 /* KeychainError.swift */,
+				F59CED9D223F5040007CF454 /* CCError.swift */,
+				F59CED9F223F782C007CF454 /* ASN1.swift */,
+				F59CED6F223D8388007CF454 /* SecureItem.swift */,
+				F5D85857223D2685003350B9 /* PublicKey.swift */,
+				F59CED90223EB9DF007CF454 /* PrivateKey.swift */,
+				F59CEDA5223FA703007CF454 /* Key.swift */,
+				F59CED8D223DDEF1007CF454 /* Algorithm.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		F5D857A1223CF081003350B9 = {
 			isa = PBXGroup;
 			children = (
 				F5D857AD223CF081003350B9 /* CryptoKit */,
+				F5D8586A223D6F3D003350B9 /* RsaTests */,
+				F59CED76223D914E007CF454 /* Example */,
 				F5D857AC223CF081003350B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +190,8 @@
 			isa = PBXGroup;
 			children = (
 				F5D857AB223CF081003350B9 /* CryptoKit.framework */,
+				F5D85869223D6F3D003350B9 /* RsaTests.xctest */,
+				F59CED75223D914E007CF454 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,8 +201,20 @@
 			children = (
 				F5D857AE223CF081003350B9 /* CryptoKit.h */,
 				F5D857AF223CF081003350B9 /* Info.plist */,
+				F59CED8F223E8482007CF454 /* RSA */,
+				F59CEDAE223FEFDD007CF454 /* Base */,
+				F59CED98223F410E007CF454 /* CommonCrypto */,
 			);
 			path = CryptoKit;
+			sourceTree = "<group>";
+		};
+		F5D8586A223D6F3D003350B9 /* RsaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D8586B223D6F3D003350B9 /* RsaTests.swift */,
+				F5D8586D223D6F3D003350B9 /* Info.plist */,
+			);
+			path = RsaTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -66,6 +231,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		F59CED74223D914E007CF454 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59CED84223D9152007CF454 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				F59CED71223D914E007CF454 /* Sources */,
+				F59CED72223D914E007CF454 /* Frameworks */,
+				F59CED73223D914E007CF454 /* Resources */,
+				F59CEDAD223FB4C9007CF454 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59CEDAC223FB4C9007CF454 /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = F59CED75223D914E007CF454 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F5D857AA223CF081003350B9 /* CryptoKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5D857B3223CF081003350B9 /* Build configuration list for PBXNativeTarget "CryptoKit" */;
@@ -84,17 +268,45 @@
 			productReference = F5D857AB223CF081003350B9 /* CryptoKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		F5D85868223D6F3D003350B9 /* RsaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D85871223D6F3D003350B9 /* Build configuration list for PBXNativeTarget "RsaTests" */;
+			buildPhases = (
+				F5D85865223D6F3D003350B9 /* Sources */,
+				F5D85866223D6F3D003350B9 /* Frameworks */,
+				F5D85867223D6F3D003350B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D85870223D6F3D003350B9 /* PBXTargetDependency */,
+				F59CED88223D9158007CF454 /* PBXTargetDependency */,
+			);
+			name = RsaTests;
+			productName = RsaTests;
+			productReference = F5D85869223D6F3D003350B9 /* RsaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F5D857A2223CF081003350B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = noah.cl.zhuang;
 				TargetAttributes = {
+					F59CED74223D914E007CF454 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					F5D857AA223CF081003350B9 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					F5D85868223D6F3D003350B9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F59CED74223D914E007CF454;
 					};
 				};
 			};
@@ -104,6 +316,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F5D857A1223CF081003350B9;
 			productRefGroup = F5D857AC223CF081003350B9 /* Products */;
@@ -111,12 +324,31 @@
 			projectRoot = "";
 			targets = (
 				F5D857AA223CF081003350B9 /* CryptoKit */,
+				F5D85868223D6F3D003350B9 /* RsaTests */,
+				F59CED74223D914E007CF454 /* Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F59CED73223D914E007CF454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59CED82223D9152007CF454 /* LaunchScreen.storyboard in Resources */,
+				F59CED7F223D9152007CF454 /* Assets.xcassets in Resources */,
+				F59CED7D223D914E007CF454 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5D857A9223CF081003350B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D85867223D6F3D003350B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -126,16 +358,122 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F59CED71223D914E007CF454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59CED7A223D914E007CF454 /* ViewController.swift in Sources */,
+				F59CED78223D914E007CF454 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5D857A7223CF081003350B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59CED8E223DDEF1007CF454 /* Algorithm.swift in Sources */,
+				F5D85858223D2685003350B9 /* PublicKey.swift in Sources */,
+				F5D85852223D0985003350B9 /* Rsa.swift in Sources */,
+				F5D8585A223D314F003350B9 /* PublicKey+Rsa.swift in Sources */,
+				F59CED70223D8388007CF454 /* SecureItem.swift in Sources */,
+				F59CED8C223DDB5F007CF454 /* KeychainError.swift in Sources */,
+				F59CEDA6223FA703007CF454 /* Key.swift in Sources */,
+				F59CEDA0223F782C007CF454 /* ASN1.swift in Sources */,
+				F59CED93223EBD67007CF454 /* PrivateKey+Rsa.swift in Sources */,
+				F59CED9A223F4299007CF454 /* RSACryptor.swift in Sources */,
+				F59CED91223EB9DF007CF454 /* PrivateKey.swift in Sources */,
+				F59CEDA8223FAE30007CF454 /* Digest.swift in Sources */,
+				F59CED9E223F5040007CF454 /* CCError.swift in Sources */,
+				F59CED97223F3DFB007CF454 /* CommonCrypto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D85865223D6F3D003350B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D8586C223D6F3D003350B9 /* RsaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F59CED88223D9158007CF454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F59CED74223D914E007CF454 /* Example */;
+			targetProxy = F59CED87223D9158007CF454 /* PBXContainerItemProxy */;
+		};
+		F59CEDAC223FB4C9007CF454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D857AA223CF081003350B9 /* CryptoKit */;
+			targetProxy = F59CEDAB223FB4C9007CF454 /* PBXContainerItemProxy */;
+		};
+		F5D85870223D6F3D003350B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D857AA223CF081003350B9 /* CryptoKit */;
+			targetProxy = F5D8586F223D6F3D003350B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F59CED7B223D914E007CF454 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59CED7C223D914E007CF454 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F59CED80223D9152007CF454 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59CED81223D9152007CF454 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		F59CED85223D9152007CF454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noah.cl.zhuang.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F59CED86223D9152007CF454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noah.cl.zhuang.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F5D857B1223CF081003350B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -174,6 +512,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(TARGET_BUILD_DIR)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -188,12 +527,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -238,6 +579,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(TARGET_BUILD_DIR)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -246,11 +588,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -261,6 +605,7 @@
 		F5D857B4223CF081003350B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -274,9 +619,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.noah.cl.zhuang.CryptoKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +632,7 @@
 		F5D857B5223CF081003350B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -298,6 +646,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.noah.cl.zhuang.CryptoKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -306,9 +655,56 @@
 			};
 			name = Release;
 		};
+		F5D85872223D6F3D003350B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RsaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noah.cl.zhuang.RsaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
+			};
+			name = Debug;
+		};
+		F5D85873223D6F3D003350B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RsaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noah.cl.zhuang.RsaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F59CED84223D9152007CF454 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59CED85223D9152007CF454 /* Debug */,
+				F59CED86223D9152007CF454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F5D857A5223CF081003350B9 /* Build configuration list for PBXProject "CryptoKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -323,6 +719,15 @@
 			buildConfigurations = (
 				F5D857B4223CF081003350B9 /* Debug */,
 				F5D857B5223CF081003350B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D85871223D6F3D003350B9 /* Build configuration list for PBXNativeTarget "RsaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D85872223D6F3D003350B9 /* Debug */,
+				F5D85873223D6F3D003350B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
