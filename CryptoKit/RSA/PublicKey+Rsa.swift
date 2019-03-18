@@ -27,12 +27,7 @@ public extension PublicKey where A: Rsa {
         // 0. locate public key
         
         let cryptor = self.algorithm.cryptor
-        
-        var keyData = Data()
-        let osStatus = self.locateData(tag: self.storeTag, parameters: self.storeParam, output: &keyData)
-        guard osStatus == noErr else {
-            throw KeychainError.code(osStatus)
-        }
+        var keyData = try pkcs1DER()
         
         // 1. get CCRSACryptorRef
         
@@ -90,11 +85,7 @@ public extension PublicKey where A: Rsa {
         // 0. locate public key
         
         let cryptor = self.algorithm.cryptor
-        var keyData = Data()
-        let osStatus = self.locateData(tag: self.storeTag, parameters: self.storeParam, output: &keyData)
-        guard osStatus == noErr else {
-            throw KeychainError.code(osStatus)
-        }
+        var keyData = try pkcs1DER()
         
         // 1. get CCRSACryptorRef
         
@@ -130,5 +121,41 @@ public extension PublicKey where A: Rsa {
             throw CCError.code(status)
         }
         success = true
+    }
+    
+    /// Export PKCS1 DER format public key.
+    func pkcs1DER() throws -> Data {
+        var keyData = Data()
+        let osStatus = self.locateData(tag: self.storeTag, parameters: self.storeParam, output: &keyData)
+        guard osStatus == noErr else {
+            throw KeychainError.code(osStatus)
+        }
+        return keyData
+    }
+    
+    /// Export PKCS1 PEM format public key.
+    func pkcs1PEM() throws -> String {
+        let keyData = try pkcs1DER()
+        let rsaPrefix = "-----BEGIN RSA PUBLIC KEY-----\n"
+        let rsaSuffix = "\n-----END RSA PUBLIC KEY-----"
+        return rsaPrefix + keyData.base64EncodedString() + rsaSuffix
+    }
+    
+    /// Export X509(subject public key) DER format public key.
+    func x509DER() throws -> Data {
+        let keyData = try pkcs1DER()
+        let bitstringSequence = ASN1.wrap(type: 0x03, followingData: keyData)
+        let oidData = ASN1.rsaOID()
+        let oidSequence = ASN1.wrap(type: 0x30, followingData: oidData)
+        let X509Sequence = ASN1.wrap(type: 0x30, followingData: oidSequence + bitstringSequence)
+        return X509Sequence
+    }
+    
+    /// Export X509(subject public key) PEM format public key.
+    func x509PEM() throws -> String {
+        let keyData = try x509DER()
+        let publicKeyPrefix = "-----BEGIN PUBLIC KEY-----\n"
+        let publicKeySuffix = "\n-----END PUBLIC KEY-----"
+        return publicKeyPrefix + keyData.base64EncodedString() + publicKeySuffix
     }
 }
