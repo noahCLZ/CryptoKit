@@ -104,7 +104,7 @@ open class BlockCipher {
     
     //MARK: Init
     
-    init() throws {
+    public init() throws {
         cryptor = try Cryptor()
         random = try Random()
     }
