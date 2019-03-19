@@ -80,8 +80,16 @@ class RsaTests: XCTestCase {
             XCTAssert(pem2.contains("-----BEGIN PUBLIC KEY-----"), "RSA prefix needed")
             XCTAssert(pem2.contains("-----END PUBLIC KEY-----"), "RSA sufix needed")
             
-            let derBase64 = try pub.pkcs1DER().base64EncodedString()
-            XCTAssert(derBase64 == base64_pkcs1_publicKey, "import and export public key should be the same")
+            let priv = try Rsa().importPrivateKey(DER: Data(base64Encoded: base64_pkcs8_privateKey)!, storeTag: "testExportPEM")
+            let test = "rrttgghh"
+            let testData = test.data(using: .utf8)!
+            let enc = try pub.encrypt(testData, hash: nil)
+            let dec = try priv.decrypt(enc, hash: nil)
+            XCTAssert(String(data: dec, encoding: .utf8)! == test, "import and export public key should be the same")
+            
+//            let der = try pub.pkcs1DER()
+//            let compared = Data(base64Encoded: base64_pkcs1_publicKey)!
+//            XCTAssert(der == compared, "import and export public key should be the same")
             
         } catch {
             XCTFail(error.localizedDescription)

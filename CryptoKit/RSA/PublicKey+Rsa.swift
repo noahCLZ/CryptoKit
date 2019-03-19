@@ -126,7 +126,7 @@ public extension PublicKey where A: Rsa {
     /// Export PKCS1 DER format public key.
     func pkcs1DER() throws -> Data {
         var keyData = Data()
-        let osStatus = self.locateData(tag: self.storeTag, parameters: self.storeParam, output: &keyData)
+        let osStatus = self.locateData(storeTag: self.storeTag, service: nil, parameters: self.storeParam, output: &keyData)
         guard osStatus == noErr else {
             throw KeychainError.code(osStatus)
         }

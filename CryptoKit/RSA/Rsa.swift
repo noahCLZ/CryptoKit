@@ -11,7 +11,7 @@ import Foundation
 /// RSA can perform RSA-PKCS1 encryption, RSA-OAEP encryption, and create RSA-PKCSv1.5 signature
 
 open class Rsa: AlgorithmIdentifiable {
-    public var identifier: Algorithm = .rsa
+    public var identifier: Algorithm = .asymmetric(.rsa)
     
     /// RSA key size.
     public enum KeySize: Int {
@@ -104,11 +104,11 @@ public extension Rsa {
         let pub = PublicKey(self, storeTag: storeTag)
         let priv = PrivateKey(self, storeTag: storeTag)
 
-        status = pub.storeData(publicKey, tag: pub.storeTag, parameters: pub.storeParam)
+        status = pub.storeData(publicKey, tag: pub.storeTag, service: nil, parameters: pub.storeParam)
         guard status == noErr else {
             throw KeychainError.code(status)
         }
-        status = priv.storeData(privateKey, tag: priv.storeTag, parameters: priv.storeParam)
+        status = priv.storeData(privateKey, tag: priv.storeTag, service: nil, parameters: priv.storeParam)
         guard status == noErr else {
             throw KeychainError.code(status)
         }
@@ -123,7 +123,7 @@ public extension Rsa {
     func importPublicKey(DER data: Data, storeTag: String?) throws -> PublicKey<Rsa> {
         let PKCS1Data = try extractPKCS1Data(from: data)
         let p = PublicKey(self, storeTag: storeTag)
-        let status = p.storeData(PKCS1Data, tag: p.storeTag, parameters: p.storeParam)
+        let status = p.storeData(PKCS1Data, tag: p.storeTag, service: nil, parameters: p.storeParam)
         guard status == noErr else {
             throw KeychainError.code(status)
         }
@@ -138,7 +138,7 @@ public extension Rsa {
     func importPrivateKey(DER data: Data, storeTag: String?) throws -> PrivateKey<Rsa> {
         let PKCS1Data = try extractPKCS1Data(from: data)
         let p = PrivateKey(self, storeTag: storeTag)
-        let status = p.storeData(PKCS1Data, tag: p.storeTag, parameters: p.storeParam)
+        let status = p.storeData(PKCS1Data, tag: p.storeTag, service: nil, parameters: p.storeParam)
         guard status == noErr else {
             throw KeychainError.code(status)
         }
@@ -149,7 +149,7 @@ public extension Rsa {
     func locatePublicKey(storeTag: String) throws -> PublicKey<Rsa> {
         let key = PublicKey(self, storeTag: storeTag)
         var keyData = Data()
-        let osStatus = key.locateData(tag: key.storeTag, parameters: key.storeParam, output: &keyData)
+        let osStatus = key.locateData(storeTag: key.storeTag, service: nil, parameters: key.storeParam, output: &keyData)
         guard osStatus == noErr else {
             throw KeychainError.code(osStatus)
         }
@@ -160,7 +160,7 @@ public extension Rsa {
     func locatePrivateKey(storeTag: String) throws -> PrivateKey<Rsa> {
         let key = PrivateKey(self, storeTag: storeTag)
         var keyData = Data()
-        let osStatus = key.locateData(tag: key.storeTag, parameters: key.storeParam, output: &keyData)
+        let osStatus = key.locateData(storeTag: key.storeTag, service: nil, parameters: key.storeParam, output: &keyData)
         guard osStatus == noErr else {
             throw KeychainError.code(osStatus)
         }

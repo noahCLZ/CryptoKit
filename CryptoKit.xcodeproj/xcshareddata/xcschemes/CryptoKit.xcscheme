@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F5471FDE2240B1E5000EBC82"
+               BuildableName = "AesTests.xctest"
+               BlueprintName = "AesTests"
+               ReferencedContainer = "container:CryptoKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F5D857AA223CF081003350B9"
+            BuildableName = "CryptoKit.framework"
+            BlueprintName = "CryptoKit"
+            ReferencedContainer = "container:CryptoKit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>

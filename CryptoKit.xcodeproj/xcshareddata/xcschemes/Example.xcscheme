@@ -38,6 +38,16 @@
                ReferencedContainer = "container:CryptoKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F5471FDE2240B1E5000EBC82"
+               BuildableName = "AesTests.xctest"
+               BlueprintName = "AesTests"
+               ReferencedContainer = "container:CryptoKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

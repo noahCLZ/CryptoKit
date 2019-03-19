@@ -9,7 +9,30 @@
 import Foundation
 
 public enum Algorithm {
-    case aes, rsa, ec
+    case symmetric(Symmetric), asymmetric(Asymmetric)
+    
+    var rawValue: UInt32 {
+        switch self {
+        case .symmetric(let sym): return sym.rawValue
+        case .asymmetric(let asym): return asym.rawValue
+        }
+    }
+    
+    /// Symmetric-key algorithm
+    public enum Symmetric: UInt32, Codable {
+        case aes = 0, des, tripleDES, cast, rc2 = 5, blowfish
+        var blockSizeInBytes: Int {
+            switch self {
+            case .aes: return 16
+            default: return 8
+            }
+        }
+    }
+    
+    /// Asymmetric public-private key cryptosystem
+    public enum Asymmetric: UInt32, Codable {
+        case rsa, ec
+    }
     
     public enum Hash: UInt32 {
         case sha1 = 8
@@ -40,9 +63,20 @@ public protocol AlgorithmIdentifiable {
 extension Algorithm: CustomStringConvertible {
     public var description: String {
         switch self {
-        case .aes: return "Advanced Encryption Standard"
-        case .rsa: return kSecAttrKeyTypeRSA as String
-        case .ec: return kSecAttrKeyTypeEC as String
+        case .asymmetric(let asym):
+            switch asym {
+            case .rsa: return kSecAttrKeyTypeRSA as String
+            case .ec: return kSecAttrKeyTypeEC as String
+            }
+        case .symmetric(let sym):
+            switch sym {
+            case .aes:  return "Advanced Encryption Standard"
+            case .blowfish: return "Blowfish"
+            case .cast: return "CAST"
+            case .rc2: return "RC2"
+            case .des: return "Data Encryption Standard"
+            case .tripleDES: return "Triple Data Encryption Algorithm"
+            }
         }
     }
     
