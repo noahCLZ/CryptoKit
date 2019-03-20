@@ -9,15 +9,30 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>CryptoKit.xcscheme_^#shared#^_</key>
+		<key>CryptoKit-iOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>CryptoKit-macOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Example.xcscheme_^#shared#^_</key>
+		<key>CryptoKit-tvOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>CryptoKit-watchOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Example-tvOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>RsaTests.xcscheme_^#shared#^_</key>
 		<dict>
@@ -27,6 +42,51 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>F54720A12242118F000EBC82</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F54720AE22421244000EBC82</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F54720BB22421276000EBC82</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F54720C822421371000EBC82</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F547212D22422329000EBC82</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F547213C22422366000EBC82</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F547214B22422386000EBC82</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5472161224250B9000EBC82</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F54721772242680C000EBC82</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>F59CED74223D914E007CF454</key>
 		<dict>
 			<key>primary</key>

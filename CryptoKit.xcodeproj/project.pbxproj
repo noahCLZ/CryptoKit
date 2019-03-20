@@ -7,90 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F5471FCF22408471000EBC82 /* Aes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FCE22408471000EBC82 /* Aes.swift */; };
-		F5471FD122408534000EBC82 /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD022408534000EBC82 /* Cryptor.swift */; };
-		F5471FD32240891F000EBC82 /* BlockCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD22240891F000EBC82 /* BlockCipher.swift */; };
-		F5471FD522409412000EBC82 /* SymmetricKey+Aes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD422409412000EBC82 /* SymmetricKey+Aes.swift */; };
-		F5471FD822409D24000EBC82 /* SymmetricKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD722409D24000EBC82 /* SymmetricKey.swift */; };
-		F5471FDA2240A62B000EBC82 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD92240A62B000EBC82 /* Random.swift */; };
-		F5471FE22240B1E5000EBC82 /* AesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FE12240B1E5000EBC82 /* AesTests.swift */; };
-		F5471FE42240B1E5000EBC82 /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D857AB223CF081003350B9 /* CryptoKit.framework */; };
-		F59CED78223D914E007CF454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED77223D914E007CF454 /* AppDelegate.swift */; };
-		F59CED7A223D914E007CF454 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED79223D914E007CF454 /* ViewController.swift */; };
-		F59CED7D223D914E007CF454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59CED7B223D914E007CF454 /* Main.storyboard */; };
-		F59CED7F223D9152007CF454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59CED7E223D9152007CF454 /* Assets.xcassets */; };
-		F59CED82223D9152007CF454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59CED80223D9152007CF454 /* LaunchScreen.storyboard */; };
-		F59CED8C223DDB5F007CF454 /* KeychainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED8B223DDB5F007CF454 /* KeychainError.swift */; };
-		F59CED8E223DDEF1007CF454 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED8D223DDEF1007CF454 /* Algorithm.swift */; };
-		F59CED91223EB9DF007CF454 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED90223EB9DF007CF454 /* PrivateKey.swift */; };
-		F59CED93223EBD67007CF454 /* PrivateKey+Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED92223EBD67007CF454 /* PrivateKey+Rsa.swift */; };
-		F59CED97223F3DFB007CF454 /* CommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED96223F3DFB007CF454 /* CommonCrypto.swift */; };
-		F59CED9A223F4299007CF454 /* RSACryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED99223F4299007CF454 /* RSACryptor.swift */; };
-		F59CED9E223F5040007CF454 /* CCError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED9D223F5040007CF454 /* CCError.swift */; };
-		F59CEDA0223F782C007CF454 /* ASN1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED9F223F782C007CF454 /* ASN1.swift */; };
-		F59CEDA6223FA703007CF454 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CEDA5223FA703007CF454 /* Key.swift */; };
-		F59CEDA8223FAE30007CF454 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CEDA7223FAE30007CF454 /* Digest.swift */; };
-		F59CEDA9223FB4C9007CF454 /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D857AB223CF081003350B9 /* CryptoKit.framework */; };
-		F59CEDAA223FB4C9007CF454 /* CryptoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F5D857AB223CF081003350B9 /* CryptoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F5D857B0223CF081003350B9 /* CryptoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D857AE223CF081003350B9 /* CryptoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5D85852223D0985003350B9 /* Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85851223D0985003350B9 /* Rsa.swift */; };
-		F5D85858223D2685003350B9 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85857223D2685003350B9 /* PublicKey.swift */; };
-		F5D8585A223D314F003350B9 /* PublicKey+Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85859223D314F003350B9 /* PublicKey+Rsa.swift */; };
-		F5D8586C223D6F3D003350B9 /* RsaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D8586B223D6F3D003350B9 /* RsaTests.swift */; };
-		F5D8586E223D6F3D003350B9 /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D857AB223CF081003350B9 /* CryptoKit.framework */; };
+		F54720D4224215FD000EBC82 /* CryptoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D857AE223CF081003350B9 /* CryptoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F54720D6224215FE000EBC82 /* CryptoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D857AE223CF081003350B9 /* CryptoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F54720D8224215FF000EBC82 /* CryptoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D857AE223CF081003350B9 /* CryptoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F54720DA22421600000EBC82 /* CryptoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D857AE223CF081003350B9 /* CryptoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F54720DC2242160A000EBC82 /* Aes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FCE22408471000EBC82 /* Aes.swift */; };
+		F54720DD2242160A000EBC82 /* SymmetricKey+Aes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD422409412000EBC82 /* SymmetricKey+Aes.swift */; };
+		F54720DE2242160B000EBC82 /* Aes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FCE22408471000EBC82 /* Aes.swift */; };
+		F54720DF2242160B000EBC82 /* SymmetricKey+Aes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD422409412000EBC82 /* SymmetricKey+Aes.swift */; };
+		F54720E02242160C000EBC82 /* Aes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FCE22408471000EBC82 /* Aes.swift */; };
+		F54720E12242160C000EBC82 /* SymmetricKey+Aes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD422409412000EBC82 /* SymmetricKey+Aes.swift */; };
+		F54720E42242160F000EBC82 /* Aes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FCE22408471000EBC82 /* Aes.swift */; };
+		F54720E52242160F000EBC82 /* SymmetricKey+Aes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD422409412000EBC82 /* SymmetricKey+Aes.swift */; };
+		F54720E622421621000EBC82 /* Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85851223D0985003350B9 /* Rsa.swift */; };
+		F54720E722421621000EBC82 /* PublicKey+Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85859223D314F003350B9 /* PublicKey+Rsa.swift */; };
+		F54720E822421621000EBC82 /* PrivateKey+Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED92223EBD67007CF454 /* PrivateKey+Rsa.swift */; };
+		F54720E922421622000EBC82 /* Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85851223D0985003350B9 /* Rsa.swift */; };
+		F54720EA22421622000EBC82 /* PublicKey+Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85859223D314F003350B9 /* PublicKey+Rsa.swift */; };
+		F54720EB22421622000EBC82 /* PrivateKey+Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED92223EBD67007CF454 /* PrivateKey+Rsa.swift */; };
+		F54720EC22421623000EBC82 /* Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85851223D0985003350B9 /* Rsa.swift */; };
+		F54720ED22421623000EBC82 /* PublicKey+Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85859223D314F003350B9 /* PublicKey+Rsa.swift */; };
+		F54720EE22421623000EBC82 /* PrivateKey+Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED92223EBD67007CF454 /* PrivateKey+Rsa.swift */; };
+		F54720EF22421623000EBC82 /* Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85851223D0985003350B9 /* Rsa.swift */; };
+		F54720F022421623000EBC82 /* PublicKey+Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85859223D314F003350B9 /* PublicKey+Rsa.swift */; };
+		F54720F122421623000EBC82 /* PrivateKey+Rsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED92223EBD67007CF454 /* PrivateKey+Rsa.swift */; };
+		F54720F222421631000EBC82 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85857223D2685003350B9 /* PublicKey.swift */; };
+		F54720F322421631000EBC82 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED90223EB9DF007CF454 /* PrivateKey.swift */; };
+		F54720F422421631000EBC82 /* SymmetricKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD722409D24000EBC82 /* SymmetricKey.swift */; };
+		F54720F522421632000EBC82 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85857223D2685003350B9 /* PublicKey.swift */; };
+		F54720F622421632000EBC82 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED90223EB9DF007CF454 /* PrivateKey.swift */; };
+		F54720F722421632000EBC82 /* SymmetricKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD722409D24000EBC82 /* SymmetricKey.swift */; };
+		F54720F822421632000EBC82 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85857223D2685003350B9 /* PublicKey.swift */; };
+		F54720F922421632000EBC82 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED90223EB9DF007CF454 /* PrivateKey.swift */; };
+		F54720FA22421632000EBC82 /* SymmetricKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD722409D24000EBC82 /* SymmetricKey.swift */; };
+		F54720FB22421633000EBC82 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D85857223D2685003350B9 /* PublicKey.swift */; };
+		F54720FC22421633000EBC82 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED90223EB9DF007CF454 /* PrivateKey.swift */; };
+		F54720FD22421633000EBC82 /* SymmetricKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD722409D24000EBC82 /* SymmetricKey.swift */; };
+		F54720FE2242164D000EBC82 /* CommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED96223F3DFB007CF454 /* CommonCrypto.swift */; };
+		F54720FF2242164D000EBC82 /* RSACryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED99223F4299007CF454 /* RSACryptor.swift */; };
+		F54721002242164D000EBC82 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CEDA7223FAE30007CF454 /* Digest.swift */; };
+		F54721012242164D000EBC82 /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD022408534000EBC82 /* Cryptor.swift */; };
+		F54721022242164D000EBC82 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD92240A62B000EBC82 /* Random.swift */; };
+		F54721032242164D000EBC82 /* KeychainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED8B223DDB5F007CF454 /* KeychainError.swift */; };
+		F54721042242164D000EBC82 /* CCError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED9D223F5040007CF454 /* CCError.swift */; };
+		F54721052242164D000EBC82 /* ASN1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED9F223F782C007CF454 /* ASN1.swift */; };
+		F54721062242164D000EBC82 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CEDA5223FA703007CF454 /* Key.swift */; };
+		F54721072242164D000EBC82 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED8D223DDEF1007CF454 /* Algorithm.swift */; };
+		F54721082242164D000EBC82 /* BlockCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD22240891F000EBC82 /* BlockCipher.swift */; };
+		F54721092242164E000EBC82 /* CommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED96223F3DFB007CF454 /* CommonCrypto.swift */; };
+		F547210A2242164E000EBC82 /* RSACryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED99223F4299007CF454 /* RSACryptor.swift */; };
+		F547210B2242164E000EBC82 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CEDA7223FAE30007CF454 /* Digest.swift */; };
+		F547210C2242164E000EBC82 /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD022408534000EBC82 /* Cryptor.swift */; };
+		F547210D2242164E000EBC82 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD92240A62B000EBC82 /* Random.swift */; };
+		F547210E2242164E000EBC82 /* KeychainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED8B223DDB5F007CF454 /* KeychainError.swift */; };
+		F547210F2242164E000EBC82 /* CCError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED9D223F5040007CF454 /* CCError.swift */; };
+		F54721102242164E000EBC82 /* ASN1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED9F223F782C007CF454 /* ASN1.swift */; };
+		F54721112242164E000EBC82 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CEDA5223FA703007CF454 /* Key.swift */; };
+		F54721122242164E000EBC82 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED8D223DDEF1007CF454 /* Algorithm.swift */; };
+		F54721132242164E000EBC82 /* BlockCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD22240891F000EBC82 /* BlockCipher.swift */; };
+		F54721142242164F000EBC82 /* CommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED96223F3DFB007CF454 /* CommonCrypto.swift */; };
+		F54721152242164F000EBC82 /* RSACryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED99223F4299007CF454 /* RSACryptor.swift */; };
+		F54721162242164F000EBC82 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CEDA7223FAE30007CF454 /* Digest.swift */; };
+		F54721172242164F000EBC82 /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD022408534000EBC82 /* Cryptor.swift */; };
+		F54721182242164F000EBC82 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD92240A62B000EBC82 /* Random.swift */; };
+		F54721192242164F000EBC82 /* KeychainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED8B223DDB5F007CF454 /* KeychainError.swift */; };
+		F547211A2242164F000EBC82 /* CCError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED9D223F5040007CF454 /* CCError.swift */; };
+		F547211B2242164F000EBC82 /* ASN1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED9F223F782C007CF454 /* ASN1.swift */; };
+		F547211C2242164F000EBC82 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CEDA5223FA703007CF454 /* Key.swift */; };
+		F547211D2242164F000EBC82 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED8D223DDEF1007CF454 /* Algorithm.swift */; };
+		F547211E2242164F000EBC82 /* BlockCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD22240891F000EBC82 /* BlockCipher.swift */; };
+		F547211F22421650000EBC82 /* CommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED96223F3DFB007CF454 /* CommonCrypto.swift */; };
+		F547212022421650000EBC82 /* RSACryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED99223F4299007CF454 /* RSACryptor.swift */; };
+		F547212122421650000EBC82 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CEDA7223FAE30007CF454 /* Digest.swift */; };
+		F547212222421650000EBC82 /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD022408534000EBC82 /* Cryptor.swift */; };
+		F547212322421650000EBC82 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD92240A62B000EBC82 /* Random.swift */; };
+		F547212422421650000EBC82 /* KeychainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED8B223DDB5F007CF454 /* KeychainError.swift */; };
+		F547212522421650000EBC82 /* CCError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED9D223F5040007CF454 /* CCError.swift */; };
+		F547212622421650000EBC82 /* ASN1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED9F223F782C007CF454 /* ASN1.swift */; };
+		F547212722421650000EBC82 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CEDA5223FA703007CF454 /* Key.swift */; };
+		F547212822421650000EBC82 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CED8D223DDEF1007CF454 /* Algorithm.swift */; };
+		F547212922421650000EBC82 /* BlockCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FD22240891F000EBC82 /* BlockCipher.swift */; };
+		F547213322422329000EBC82 /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54720A22242118F000EBC82 /* CryptoKit.framework */; };
+		F547214222422366000EBC82 /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54720BC22421276000EBC82 /* CryptoKit.framework */; };
+		F547215122422386000EBC82 /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54720C922421371000EBC82 /* CryptoKit.framework */; };
+		F559675F224296040000368C /* RsaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D8586B223D6F3D003350B9 /* RsaTests.swift */; };
+		F55967622242966B0000368C /* RsaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D8586B223D6F3D003350B9 /* RsaTests.swift */; };
+		F55967632242966C0000368C /* RsaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D8586B223D6F3D003350B9 /* RsaTests.swift */; };
+		F55967642242966F0000368C /* AesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FE12240B1E5000EBC82 /* AesTests.swift */; };
+		F5596766224296720000368C /* AesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FE12240B1E5000EBC82 /* AesTests.swift */; };
+		F5596767224296720000368C /* AesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5471FE12240B1E5000EBC82 /* AesTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F5471FE52240B1E5000EBC82 /* PBXContainerItemProxy */ = {
+		F547213422422329000EBC82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F5D857A2223CF081003350B9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F5D857AA223CF081003350B9;
-			remoteInfo = CryptoKit;
+			remoteGlobalIDString = F54720A12242118F000EBC82;
+			remoteInfo = "CryptoKit-macOS";
 		};
-		F5471FEA2240B1EA000EBC82 /* PBXContainerItemProxy */ = {
+		F547214322422366000EBC82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F5D857A2223CF081003350B9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F59CED74223D914E007CF454;
-			remoteInfo = Example;
+			remoteGlobalIDString = F54720BB22421276000EBC82;
+			remoteInfo = "CryptoKit-tvOS";
 		};
-		F59CED87223D9158007CF454 /* PBXContainerItemProxy */ = {
+		F547215222422386000EBC82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F5D857A2223CF081003350B9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F59CED74223D914E007CF454;
-			remoteInfo = Example;
-		};
-		F59CEDAB223FB4C9007CF454 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F5D857A2223CF081003350B9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F5D857AA223CF081003350B9;
-			remoteInfo = CryptoKit;
-		};
-		F5D8586F223D6F3D003350B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F5D857A2223CF081003350B9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F5D857AA223CF081003350B9;
-			remoteInfo = CryptoKit;
+			remoteGlobalIDString = F54720C822421371000EBC82;
+			remoteInfo = "CryptoKit-iOS";
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		F59CEDAD223FB4C9007CF454 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				F59CEDAA223FB4C9007CF454 /* CryptoKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F5471FCE22408471000EBC82 /* Aes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aes.swift; sourceTree = "<group>"; };
@@ -99,16 +129,19 @@
 		F5471FD422409412000EBC82 /* SymmetricKey+Aes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SymmetricKey+Aes.swift"; sourceTree = "<group>"; };
 		F5471FD722409D24000EBC82 /* SymmetricKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetricKey.swift; sourceTree = "<group>"; };
 		F5471FD92240A62B000EBC82 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
-		F5471FDF2240B1E5000EBC82 /* AesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5471FE12240B1E5000EBC82 /* AesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AesTests.swift; sourceTree = "<group>"; };
-		F5471FE32240B1E5000EBC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F59CED75223D914E007CF454 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F59CED77223D914E007CF454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F59CED79223D914E007CF454 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F59CED7C223D914E007CF454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F59CED7E223D9152007CF454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F59CED81223D9152007CF454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F59CED83223D9152007CF454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54720A22242118F000EBC82 /* CryptoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54720AF22421244000EBC82 /* CryptoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54720BC22421276000EBC82 /* CryptoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54720C922421371000EBC82 /* CryptoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F547212E22422329000EBC82 /* CryptoKit-macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CryptoKit-macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F547213D22422366000EBC82 /* CryptoKit-tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CryptoKit-tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F547214C22422386000EBC82 /* CryptoKit-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CryptoKit-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F547217A2242680C000EBC82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F547217C2242680C000EBC82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F547217F2242680C000EBC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F547218122426811000EBC82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F547218322426811000EBC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F59CED8B223DDB5F007CF454 /* KeychainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainError.swift; sourceTree = "<group>"; };
 		F59CED8D223DDEF1007CF454 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
 		F59CED90223EB9DF007CF454 /* PrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
@@ -119,46 +152,65 @@
 		F59CED9F223F782C007CF454 /* ASN1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASN1.swift; sourceTree = "<group>"; };
 		F59CEDA5223FA703007CF454 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 		F59CEDA7223FAE30007CF454 /* Digest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digest.swift; sourceTree = "<group>"; };
-		F5D857AB223CF081003350B9 /* CryptoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D857AE223CF081003350B9 /* CryptoKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CryptoKit.h; sourceTree = "<group>"; };
 		F5D857AF223CF081003350B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5D85851223D0985003350B9 /* Rsa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rsa.swift; sourceTree = "<group>"; };
 		F5D85857223D2685003350B9 /* PublicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicKey.swift; sourceTree = "<group>"; };
 		F5D85859223D314F003350B9 /* PublicKey+Rsa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PublicKey+Rsa.swift"; sourceTree = "<group>"; };
-		F5D85869223D6F3D003350B9 /* RsaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RsaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D8586B223D6F3D003350B9 /* RsaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RsaTests.swift; sourceTree = "<group>"; };
 		F5D8586D223D6F3D003350B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F5471FDC2240B1E5000EBC82 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F5471FE42240B1E5000EBC82 /* CryptoKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F59CED72223D914E007CF454 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F59CEDA9223FB4C9007CF454 /* CryptoKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5D857A8223CF081003350B9 /* Frameworks */ = {
+		F547209F2242118F000EBC82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5D85866223D6F3D003350B9 /* Frameworks */ = {
+		F54720AC22421244000EBC82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5D8586E223D6F3D003350B9 /* CryptoKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54720B922421276000EBC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54720C622421371000EBC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F547212B22422329000EBC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F547213322422329000EBC82 /* CryptoKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F547213A22422366000EBC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F547214222422366000EBC82 /* CryptoKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F547214922422386000EBC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F547215122422386000EBC82 /* CryptoKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,15 +226,6 @@
 			path = AES;
 			sourceTree = "<group>";
 		};
-		F5471FE02240B1E5000EBC82 /* AesTests */ = {
-			isa = PBXGroup;
-			children = (
-				F5471FE12240B1E5000EBC82 /* AesTests.swift */,
-				F5471FE32240B1E5000EBC82 /* Info.plist */,
-			);
-			path = AesTests;
-			sourceTree = "<group>";
-		};
 		F5471FEC2240C9C9000EBC82 /* Key */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,17 +236,16 @@
 			path = Key;
 			sourceTree = "<group>";
 		};
-		F59CED76223D914E007CF454 /* Example */ = {
+		F54721792242680C000EBC82 /* Example-tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				F59CED77223D914E007CF454 /* AppDelegate.swift */,
-				F59CED79223D914E007CF454 /* ViewController.swift */,
-				F59CED7B223D914E007CF454 /* Main.storyboard */,
-				F59CED7E223D9152007CF454 /* Assets.xcassets */,
-				F59CED80223D9152007CF454 /* LaunchScreen.storyboard */,
-				F59CED83223D9152007CF454 /* Info.plist */,
+				F547217A2242680C000EBC82 /* AppDelegate.swift */,
+				F547217C2242680C000EBC82 /* ViewController.swift */,
+				F547217E2242680C000EBC82 /* Main.storyboard */,
+				F547218122426811000EBC82 /* Assets.xcassets */,
+				F547218322426811000EBC82 /* Info.plist */,
 			);
-			path = Example;
+			path = "Example-tvOS";
 			sourceTree = "<group>";
 		};
 		F59CED8F223E8482007CF454 /* RSA */ = {
@@ -245,10 +287,9 @@
 		F5D857A1223CF081003350B9 = {
 			isa = PBXGroup;
 			children = (
-				F5D857AD223CF081003350B9 /* CryptoKit */,
-				F5D8586A223D6F3D003350B9 /* RsaTests */,
-				F59CED76223D914E007CF454 /* Example */,
-				F5471FE02240B1E5000EBC82 /* AesTests */,
+				F5D857AD223CF081003350B9 /* Source */,
+				F5D8586A223D6F3D003350B9 /* Tests */,
+				F54721792242680C000EBC82 /* Example-tvOS */,
 				F5D857AC223CF081003350B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -256,15 +297,18 @@
 		F5D857AC223CF081003350B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5D857AB223CF081003350B9 /* CryptoKit.framework */,
-				F5D85869223D6F3D003350B9 /* RsaTests.xctest */,
-				F59CED75223D914E007CF454 /* Example.app */,
-				F5471FDF2240B1E5000EBC82 /* AesTests.xctest */,
+				F54720A22242118F000EBC82 /* CryptoKit.framework */,
+				F54720AF22421244000EBC82 /* CryptoKit.framework */,
+				F54720BC22421276000EBC82 /* CryptoKit.framework */,
+				F54720C922421371000EBC82 /* CryptoKit.framework */,
+				F547212E22422329000EBC82 /* CryptoKit-macOS Tests.xctest */,
+				F547213D22422366000EBC82 /* CryptoKit-tvOS Tests.xctest */,
+				F547214C22422386000EBC82 /* CryptoKit-iOS Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F5D857AD223CF081003350B9 /* CryptoKit */ = {
+		F5D857AD223CF081003350B9 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				F5D857AE223CF081003350B9 /* CryptoKit.h */,
@@ -274,105 +318,181 @@
 				F5471FEC2240C9C9000EBC82 /* Key */,
 				F59CEDAE223FEFDD007CF454 /* Base */,
 			);
-			path = CryptoKit;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		F5D8586A223D6F3D003350B9 /* RsaTests */ = {
+		F5D8586A223D6F3D003350B9 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				F5D8586B223D6F3D003350B9 /* RsaTests.swift */,
+				F5471FE12240B1E5000EBC82 /* AesTests.swift */,
 				F5D8586D223D6F3D003350B9 /* Info.plist */,
 			);
-			path = RsaTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F5D857A6223CF081003350B9 /* Headers */ = {
+		F547209D2242118F000EBC82 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5D857B0223CF081003350B9 /* CryptoKit.h in Headers */,
+				F54720D4224215FD000EBC82 /* CryptoKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54720AA22421244000EBC82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54720D6224215FE000EBC82 /* CryptoKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54720B722421276000EBC82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54720D8224215FF000EBC82 /* CryptoKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54720C422421371000EBC82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54720DA22421600000EBC82 /* CryptoKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F5471FDE2240B1E5000EBC82 /* AesTests */ = {
+		F54720A12242118F000EBC82 /* CryptoKit-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5471FE72240B1E5000EBC82 /* Build configuration list for PBXNativeTarget "AesTests" */;
+			buildConfigurationList = F54720A92242118F000EBC82 /* Build configuration list for PBXNativeTarget "CryptoKit-macOS" */;
 			buildPhases = (
-				F5471FDB2240B1E5000EBC82 /* Sources */,
-				F5471FDC2240B1E5000EBC82 /* Frameworks */,
-				F5471FDD2240B1E5000EBC82 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F5471FE62240B1E5000EBC82 /* PBXTargetDependency */,
-				F5471FEB2240B1EA000EBC82 /* PBXTargetDependency */,
-			);
-			name = AesTests;
-			productName = AesTests;
-			productReference = F5471FDF2240B1E5000EBC82 /* AesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F59CED74223D914E007CF454 /* Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F59CED84223D9152007CF454 /* Build configuration list for PBXNativeTarget "Example" */;
-			buildPhases = (
-				F59CED71223D914E007CF454 /* Sources */,
-				F59CED72223D914E007CF454 /* Frameworks */,
-				F59CED73223D914E007CF454 /* Resources */,
-				F59CEDAD223FB4C9007CF454 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F59CEDAC223FB4C9007CF454 /* PBXTargetDependency */,
-			);
-			name = Example;
-			productName = Example;
-			productReference = F59CED75223D914E007CF454 /* Example.app */;
-			productType = "com.apple.product-type.application";
-		};
-		F5D857AA223CF081003350B9 /* CryptoKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F5D857B3223CF081003350B9 /* Build configuration list for PBXNativeTarget "CryptoKit" */;
-			buildPhases = (
-				F5D857A6223CF081003350B9 /* Headers */,
-				F5D857A7223CF081003350B9 /* Sources */,
-				F5D857A8223CF081003350B9 /* Frameworks */,
-				F5D857A9223CF081003350B9 /* Resources */,
+				F547209D2242118F000EBC82 /* Headers */,
+				F547209E2242118F000EBC82 /* Sources */,
+				F547209F2242118F000EBC82 /* Frameworks */,
+				F54720A02242118F000EBC82 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CryptoKit;
-			productName = CryptoKit;
-			productReference = F5D857AB223CF081003350B9 /* CryptoKit.framework */;
+			name = "CryptoKit-macOS";
+			productName = "CryptoKit-macOS";
+			productReference = F54720A22242118F000EBC82 /* CryptoKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F5D85868223D6F3D003350B9 /* RsaTests */ = {
+		F54720AE22421244000EBC82 /* CryptoKit-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5D85871223D6F3D003350B9 /* Build configuration list for PBXNativeTarget "RsaTests" */;
+			buildConfigurationList = F54720B422421244000EBC82 /* Build configuration list for PBXNativeTarget "CryptoKit-watchOS" */;
 			buildPhases = (
-				F5D85865223D6F3D003350B9 /* Sources */,
-				F5D85866223D6F3D003350B9 /* Frameworks */,
-				F5D85867223D6F3D003350B9 /* Resources */,
+				F54720AA22421244000EBC82 /* Headers */,
+				F54720AB22421244000EBC82 /* Sources */,
+				F54720AC22421244000EBC82 /* Frameworks */,
+				F54720AD22421244000EBC82 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F5D85870223D6F3D003350B9 /* PBXTargetDependency */,
-				F59CED88223D9158007CF454 /* PBXTargetDependency */,
 			);
-			name = RsaTests;
-			productName = RsaTests;
-			productReference = F5D85869223D6F3D003350B9 /* RsaTests.xctest */;
+			name = "CryptoKit-watchOS";
+			productName = "CryptoKit-watchOS";
+			productReference = F54720AF22421244000EBC82 /* CryptoKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F54720BB22421276000EBC82 /* CryptoKit-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54720C122421276000EBC82 /* Build configuration list for PBXNativeTarget "CryptoKit-tvOS" */;
+			buildPhases = (
+				F54720B722421276000EBC82 /* Headers */,
+				F54720B822421276000EBC82 /* Sources */,
+				F54720B922421276000EBC82 /* Frameworks */,
+				F54720BA22421276000EBC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CryptoKit-tvOS";
+			productName = "CryptoKit-tvOS";
+			productReference = F54720BC22421276000EBC82 /* CryptoKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F54720C822421371000EBC82 /* CryptoKit-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54720CE22421371000EBC82 /* Build configuration list for PBXNativeTarget "CryptoKit-iOS" */;
+			buildPhases = (
+				F54720C422421371000EBC82 /* Headers */,
+				F54720C522421371000EBC82 /* Sources */,
+				F54720C622421371000EBC82 /* Frameworks */,
+				F54720C722421371000EBC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CryptoKit-iOS";
+			productName = "CryptoKit-iOS";
+			productReference = F54720C922421371000EBC82 /* CryptoKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F547212D22422329000EBC82 /* CryptoKit-macOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F547213622422329000EBC82 /* Build configuration list for PBXNativeTarget "CryptoKit-macOS Tests" */;
+			buildPhases = (
+				F547212A22422329000EBC82 /* Sources */,
+				F547212B22422329000EBC82 /* Frameworks */,
+				F547212C22422329000EBC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F547213522422329000EBC82 /* PBXTargetDependency */,
+			);
+			name = "CryptoKit-macOS Tests";
+			productName = "CryptoKit-macOS Tests";
+			productReference = F547212E22422329000EBC82 /* CryptoKit-macOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F547213C22422366000EBC82 /* CryptoKit-tvOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F547214522422366000EBC82 /* Build configuration list for PBXNativeTarget "CryptoKit-tvOS Tests" */;
+			buildPhases = (
+				F547213922422366000EBC82 /* Sources */,
+				F547213A22422366000EBC82 /* Frameworks */,
+				F547213B22422366000EBC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F547214422422366000EBC82 /* PBXTargetDependency */,
+			);
+			name = "CryptoKit-tvOS Tests";
+			productName = "CryptoKit-tvOS Tests";
+			productReference = F547213D22422366000EBC82 /* CryptoKit-tvOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F547214B22422386000EBC82 /* CryptoKit-iOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F547215422422386000EBC82 /* Build configuration list for PBXNativeTarget "CryptoKit-iOS Tests" */;
+			buildPhases = (
+				F547214822422386000EBC82 /* Sources */,
+				F547214922422386000EBC82 /* Frameworks */,
+				F547214A22422386000EBC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F547215322422386000EBC82 /* PBXTargetDependency */,
+			);
+			name = "CryptoKit-iOS Tests";
+			productName = "CryptoKit-iOS Tests";
+			productReference = F547214C22422386000EBC82 /* CryptoKit-iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -385,20 +505,27 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = noah.cl.zhuang;
 				TargetAttributes = {
-					F5471FDE2240B1E5000EBC82 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = F59CED74223D914E007CF454;
-					};
-					F59CED74223D914E007CF454 = {
+					F54720A12242118F000EBC82 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					F5D857AA223CF081003350B9 = {
+					F54720AE22421244000EBC82 = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
 					};
-					F5D85868223D6F3D003350B9 = {
+					F54720BB22421276000EBC82 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = F59CED74223D914E007CF454;
+					};
+					F54720C822421371000EBC82 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F547212D22422329000EBC82 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F547213C22422366000EBC82 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F54721772242680C000EBC82;
+					};
+					F547214B22422386000EBC82 = {
+						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
@@ -415,40 +542,61 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F5D857AA223CF081003350B9 /* CryptoKit */,
-				F5D85868223D6F3D003350B9 /* RsaTests */,
-				F59CED74223D914E007CF454 /* Example */,
-				F5471FDE2240B1E5000EBC82 /* AesTests */,
+				F54720A12242118F000EBC82 /* CryptoKit-macOS */,
+				F54720AE22421244000EBC82 /* CryptoKit-watchOS */,
+				F54720BB22421276000EBC82 /* CryptoKit-tvOS */,
+				F54720C822421371000EBC82 /* CryptoKit-iOS */,
+				F547212D22422329000EBC82 /* CryptoKit-macOS Tests */,
+				F547213C22422366000EBC82 /* CryptoKit-tvOS Tests */,
+				F547214B22422386000EBC82 /* CryptoKit-iOS Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F5471FDD2240B1E5000EBC82 /* Resources */ = {
+		F54720A02242118F000EBC82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F59CED73223D914E007CF454 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F59CED82223D9152007CF454 /* LaunchScreen.storyboard in Resources */,
-				F59CED7F223D9152007CF454 /* Assets.xcassets in Resources */,
-				F59CED7D223D914E007CF454 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5D857A9223CF081003350B9 /* Resources */ = {
+		F54720AD22421244000EBC82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5D85867223D6F3D003350B9 /* Resources */ = {
+		F54720BA22421276000EBC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54720C722421371000EBC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F547212C22422329000EBC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F547213B22422366000EBC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F547214A22422386000EBC82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -458,177 +606,497 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F5471FDB2240B1E5000EBC82 /* Sources */ = {
+		F547209E2242118F000EBC82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5471FE22240B1E5000EBC82 /* AesTests.swift in Sources */,
+				F54721002242164D000EBC82 /* Digest.swift in Sources */,
+				F54721082242164D000EBC82 /* BlockCipher.swift in Sources */,
+				F54721072242164D000EBC82 /* Algorithm.swift in Sources */,
+				F54720FF2242164D000EBC82 /* RSACryptor.swift in Sources */,
+				F54721022242164D000EBC82 /* Random.swift in Sources */,
+				F54720E822421621000EBC82 /* PrivateKey+Rsa.swift in Sources */,
+				F54721042242164D000EBC82 /* CCError.swift in Sources */,
+				F54720DE2242160B000EBC82 /* Aes.swift in Sources */,
+				F54720E622421621000EBC82 /* Rsa.swift in Sources */,
+				F54720F422421631000EBC82 /* SymmetricKey.swift in Sources */,
+				F54721062242164D000EBC82 /* Key.swift in Sources */,
+				F54721052242164D000EBC82 /* ASN1.swift in Sources */,
+				F54720DF2242160B000EBC82 /* SymmetricKey+Aes.swift in Sources */,
+				F54721032242164D000EBC82 /* KeychainError.swift in Sources */,
+				F54720F222421631000EBC82 /* PublicKey.swift in Sources */,
+				F54720E722421621000EBC82 /* PublicKey+Rsa.swift in Sources */,
+				F54720F322421631000EBC82 /* PrivateKey.swift in Sources */,
+				F54720FE2242164D000EBC82 /* CommonCrypto.swift in Sources */,
+				F54721012242164D000EBC82 /* Cryptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F59CED71223D914E007CF454 /* Sources */ = {
+		F54720AB22421244000EBC82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F59CED7A223D914E007CF454 /* ViewController.swift in Sources */,
-				F59CED78223D914E007CF454 /* AppDelegate.swift in Sources */,
+				F547210B2242164E000EBC82 /* Digest.swift in Sources */,
+				F54721132242164E000EBC82 /* BlockCipher.swift in Sources */,
+				F54721122242164E000EBC82 /* Algorithm.swift in Sources */,
+				F547210A2242164E000EBC82 /* RSACryptor.swift in Sources */,
+				F547210D2242164E000EBC82 /* Random.swift in Sources */,
+				F54720EB22421622000EBC82 /* PrivateKey+Rsa.swift in Sources */,
+				F547210F2242164E000EBC82 /* CCError.swift in Sources */,
+				F54720DC2242160A000EBC82 /* Aes.swift in Sources */,
+				F54720E922421622000EBC82 /* Rsa.swift in Sources */,
+				F54720F722421632000EBC82 /* SymmetricKey.swift in Sources */,
+				F54721112242164E000EBC82 /* Key.swift in Sources */,
+				F54721102242164E000EBC82 /* ASN1.swift in Sources */,
+				F54720DD2242160A000EBC82 /* SymmetricKey+Aes.swift in Sources */,
+				F547210E2242164E000EBC82 /* KeychainError.swift in Sources */,
+				F54720F522421632000EBC82 /* PublicKey.swift in Sources */,
+				F54720EA22421622000EBC82 /* PublicKey+Rsa.swift in Sources */,
+				F54720F622421632000EBC82 /* PrivateKey.swift in Sources */,
+				F54721092242164E000EBC82 /* CommonCrypto.swift in Sources */,
+				F547210C2242164E000EBC82 /* Cryptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5D857A7223CF081003350B9 /* Sources */ = {
+		F54720B822421276000EBC82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F59CED8E223DDEF1007CF454 /* Algorithm.swift in Sources */,
-				F5D85858223D2685003350B9 /* PublicKey.swift in Sources */,
-				F5D85852223D0985003350B9 /* Rsa.swift in Sources */,
-				F5471FD522409412000EBC82 /* SymmetricKey+Aes.swift in Sources */,
-				F5471FCF22408471000EBC82 /* Aes.swift in Sources */,
-				F5D8585A223D314F003350B9 /* PublicKey+Rsa.swift in Sources */,
-				F59CED8C223DDB5F007CF454 /* KeychainError.swift in Sources */,
-				F5471FD32240891F000EBC82 /* BlockCipher.swift in Sources */,
-				F59CEDA6223FA703007CF454 /* Key.swift in Sources */,
-				F59CEDA0223F782C007CF454 /* ASN1.swift in Sources */,
-				F59CED93223EBD67007CF454 /* PrivateKey+Rsa.swift in Sources */,
-				F5471FDA2240A62B000EBC82 /* Random.swift in Sources */,
-				F59CED9A223F4299007CF454 /* RSACryptor.swift in Sources */,
-				F5471FD122408534000EBC82 /* Cryptor.swift in Sources */,
-				F59CED91223EB9DF007CF454 /* PrivateKey.swift in Sources */,
-				F59CEDA8223FAE30007CF454 /* Digest.swift in Sources */,
-				F5471FD822409D24000EBC82 /* SymmetricKey.swift in Sources */,
-				F59CED9E223F5040007CF454 /* CCError.swift in Sources */,
-				F59CED97223F3DFB007CF454 /* CommonCrypto.swift in Sources */,
+				F54721162242164F000EBC82 /* Digest.swift in Sources */,
+				F547211E2242164F000EBC82 /* BlockCipher.swift in Sources */,
+				F547211D2242164F000EBC82 /* Algorithm.swift in Sources */,
+				F54721152242164F000EBC82 /* RSACryptor.swift in Sources */,
+				F54721182242164F000EBC82 /* Random.swift in Sources */,
+				F54720EE22421623000EBC82 /* PrivateKey+Rsa.swift in Sources */,
+				F547211A2242164F000EBC82 /* CCError.swift in Sources */,
+				F54720E02242160C000EBC82 /* Aes.swift in Sources */,
+				F54720EC22421623000EBC82 /* Rsa.swift in Sources */,
+				F54720FA22421632000EBC82 /* SymmetricKey.swift in Sources */,
+				F547211C2242164F000EBC82 /* Key.swift in Sources */,
+				F547211B2242164F000EBC82 /* ASN1.swift in Sources */,
+				F54720E12242160C000EBC82 /* SymmetricKey+Aes.swift in Sources */,
+				F54721192242164F000EBC82 /* KeychainError.swift in Sources */,
+				F54720F822421632000EBC82 /* PublicKey.swift in Sources */,
+				F54720ED22421623000EBC82 /* PublicKey+Rsa.swift in Sources */,
+				F54720F922421632000EBC82 /* PrivateKey.swift in Sources */,
+				F54721142242164F000EBC82 /* CommonCrypto.swift in Sources */,
+				F54721172242164F000EBC82 /* Cryptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5D85865223D6F3D003350B9 /* Sources */ = {
+		F54720C522421371000EBC82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5D8586C223D6F3D003350B9 /* RsaTests.swift in Sources */,
+				F547212122421650000EBC82 /* Digest.swift in Sources */,
+				F547212922421650000EBC82 /* BlockCipher.swift in Sources */,
+				F547212822421650000EBC82 /* Algorithm.swift in Sources */,
+				F547212022421650000EBC82 /* RSACryptor.swift in Sources */,
+				F547212322421650000EBC82 /* Random.swift in Sources */,
+				F54720F122421623000EBC82 /* PrivateKey+Rsa.swift in Sources */,
+				F547212522421650000EBC82 /* CCError.swift in Sources */,
+				F54720E42242160F000EBC82 /* Aes.swift in Sources */,
+				F54720EF22421623000EBC82 /* Rsa.swift in Sources */,
+				F54720FD22421633000EBC82 /* SymmetricKey.swift in Sources */,
+				F547212722421650000EBC82 /* Key.swift in Sources */,
+				F547212622421650000EBC82 /* ASN1.swift in Sources */,
+				F54720E52242160F000EBC82 /* SymmetricKey+Aes.swift in Sources */,
+				F547212422421650000EBC82 /* KeychainError.swift in Sources */,
+				F54720FB22421633000EBC82 /* PublicKey.swift in Sources */,
+				F54720F022421623000EBC82 /* PublicKey+Rsa.swift in Sources */,
+				F54720FC22421633000EBC82 /* PrivateKey.swift in Sources */,
+				F547211F22421650000EBC82 /* CommonCrypto.swift in Sources */,
+				F547212222421650000EBC82 /* Cryptor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F547212A22422329000EBC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F559675F224296040000368C /* RsaTests.swift in Sources */,
+				F55967642242966F0000368C /* AesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F547213922422366000EBC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55967622242966B0000368C /* RsaTests.swift in Sources */,
+				F5596766224296720000368C /* AesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F547214822422386000EBC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55967632242966C0000368C /* RsaTests.swift in Sources */,
+				F5596767224296720000368C /* AesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F5471FE62240B1E5000EBC82 /* PBXTargetDependency */ = {
+		F547213522422329000EBC82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F5D857AA223CF081003350B9 /* CryptoKit */;
-			targetProxy = F5471FE52240B1E5000EBC82 /* PBXContainerItemProxy */;
+			target = F54720A12242118F000EBC82 /* CryptoKit-macOS */;
+			targetProxy = F547213422422329000EBC82 /* PBXContainerItemProxy */;
 		};
-		F5471FEB2240B1EA000EBC82 /* PBXTargetDependency */ = {
+		F547214422422366000EBC82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F59CED74223D914E007CF454 /* Example */;
-			targetProxy = F5471FEA2240B1EA000EBC82 /* PBXContainerItemProxy */;
+			target = F54720BB22421276000EBC82 /* CryptoKit-tvOS */;
+			targetProxy = F547214322422366000EBC82 /* PBXContainerItemProxy */;
 		};
-		F59CED88223D9158007CF454 /* PBXTargetDependency */ = {
+		F547215322422386000EBC82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F59CED74223D914E007CF454 /* Example */;
-			targetProxy = F59CED87223D9158007CF454 /* PBXContainerItemProxy */;
-		};
-		F59CEDAC223FB4C9007CF454 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F5D857AA223CF081003350B9 /* CryptoKit */;
-			targetProxy = F59CEDAB223FB4C9007CF454 /* PBXContainerItemProxy */;
-		};
-		F5D85870223D6F3D003350B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F5D857AA223CF081003350B9 /* CryptoKit */;
-			targetProxy = F5D8586F223D6F3D003350B9 /* PBXContainerItemProxy */;
+			target = F54720C822421371000EBC82 /* CryptoKit-iOS */;
+			targetProxy = F547215222422386000EBC82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F59CED7B223D914E007CF454 /* Main.storyboard */ = {
+		F547217E2242680C000EBC82 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F59CED7C223D914E007CF454 /* Base */,
+				F547217F2242680C000EBC82 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F59CED80223D9152007CF454 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F59CED81223D9152007CF454 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F5471FE82240B1E5000EBC82 /* Debug */ = {
+		F54720A72242118F000EBC82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AesTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.noah.cl.zhuang.AesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noah.cl.zhuang.CryptoKit-macOS";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
 			name = Debug;
 		};
-		F5471FE92240B1E5000EBC82 /* Release */ = {
+		F54720A82242118F000EBC82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AesTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.noah.cl.zhuang.AesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noah.cl.zhuang.CryptoKit-macOS";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
 			name = Release;
 		};
-		F59CED85223D9152007CF454 /* Debug */ = {
+		F54720B522421244000EBC82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Example/Info.plist;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noah.cl.zhuang.CryptoKit-watchOS";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		F54720B622421244000EBC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noah.cl.zhuang.CryptoKit-watchOS";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		F54720C222421276000EBC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noah.cl.zhuang.CryptoKit-tvOS";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Debug;
+		};
+		F54720C322421276000EBC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noah.cl.zhuang.CryptoKit-tvOS";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Release;
+		};
+		F54720CF22421371000EBC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.noah.cl.zhuang.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noah.cl.zhuang.CryptoKit-iOS";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F54720D022421371000EBC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noah.cl.zhuang.CryptoKit-iOS";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F547213722422329000EBC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noah.cl.zhuang.CryptoKit-macOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		F547213822422329000EBC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noah.cl.zhuang.CryptoKit-macOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		F547214622422366000EBC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noah.cl.zhuang.CryptoKit-tvOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example-tvOS.app/Example-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Debug;
+		};
+		F547214722422366000EBC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noah.cl.zhuang.CryptoKit-tvOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example-tvOS.app/Example-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Release;
+		};
+		F547215522422386000EBC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noah.cl.zhuang.CryptoKit-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F59CED86223D9152007CF454 /* Release */ = {
+		F547215622422386000EBC82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.noah.cl.zhuang.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noah.cl.zhuang.CryptoKit-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -763,114 +1231,68 @@
 			};
 			name = Release;
 		};
-		F5D857B4223CF081003350B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CryptoKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.noah.cl.zhuang.CryptoKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F5D857B5223CF081003350B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CryptoKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.noah.cl.zhuang.CryptoKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		F5D85872223D6F3D003350B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RsaTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.noah.cl.zhuang.RsaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
-			};
-			name = Debug;
-		};
-		F5D85873223D6F3D003350B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RsaTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.noah.cl.zhuang.RsaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F5471FE72240B1E5000EBC82 /* Build configuration list for PBXNativeTarget "AesTests" */ = {
+		F54720A92242118F000EBC82 /* Build configuration list for PBXNativeTarget "CryptoKit-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F5471FE82240B1E5000EBC82 /* Debug */,
-				F5471FE92240B1E5000EBC82 /* Release */,
+				F54720A72242118F000EBC82 /* Debug */,
+				F54720A82242118F000EBC82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F59CED84223D9152007CF454 /* Build configuration list for PBXNativeTarget "Example" */ = {
+		F54720B422421244000EBC82 /* Build configuration list for PBXNativeTarget "CryptoKit-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F59CED85223D9152007CF454 /* Debug */,
-				F59CED86223D9152007CF454 /* Release */,
+				F54720B522421244000EBC82 /* Debug */,
+				F54720B622421244000EBC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54720C122421276000EBC82 /* Build configuration list for PBXNativeTarget "CryptoKit-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54720C222421276000EBC82 /* Debug */,
+				F54720C322421276000EBC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54720CE22421371000EBC82 /* Build configuration list for PBXNativeTarget "CryptoKit-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54720CF22421371000EBC82 /* Debug */,
+				F54720D022421371000EBC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F547213622422329000EBC82 /* Build configuration list for PBXNativeTarget "CryptoKit-macOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F547213722422329000EBC82 /* Debug */,
+				F547213822422329000EBC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F547214522422366000EBC82 /* Build configuration list for PBXNativeTarget "CryptoKit-tvOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F547214622422366000EBC82 /* Debug */,
+				F547214722422366000EBC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F547215422422386000EBC82 /* Build configuration list for PBXNativeTarget "CryptoKit-iOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F547215522422386000EBC82 /* Debug */,
+				F547215622422386000EBC82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -880,24 +1302,6 @@
 			buildConfigurations = (
 				F5D857B1223CF081003350B9 /* Debug */,
 				F5D857B2223CF081003350B9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F5D857B3223CF081003350B9 /* Build configuration list for PBXNativeTarget "CryptoKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F5D857B4223CF081003350B9 /* Debug */,
-				F5D857B5223CF081003350B9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F5D85871223D6F3D003350B9 /* Build configuration list for PBXNativeTarget "RsaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F5D85872223D6F3D003350B9 /* Debug */,
-				F5D85873223D6F3D003350B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
