@@ -1,2 +1,3 @@
 # CryptoKit
-A pragmatic Crypto framework for iOS
+A pragmatic crypto framework for iOS, macOS, watchOS, and tvOS
+
