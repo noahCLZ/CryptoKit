@@ -137,11 +137,6 @@
 		F547212E22422329000EBC82 /* CryptoKit-macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CryptoKit-macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F547213D22422366000EBC82 /* CryptoKit-tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CryptoKit-tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F547214C22422386000EBC82 /* CryptoKit-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CryptoKit-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F547217A2242680C000EBC82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F547217C2242680C000EBC82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F547217F2242680C000EBC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F547218122426811000EBC82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F547218322426811000EBC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F59CED8B223DDB5F007CF454 /* KeychainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainError.swift; sourceTree = "<group>"; };
 		F59CED8D223DDEF1007CF454 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
 		F59CED90223EB9DF007CF454 /* PrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
@@ -236,18 +231,6 @@
 			path = Key;
 			sourceTree = "<group>";
 		};
-		F54721792242680C000EBC82 /* Example-tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				F547217A2242680C000EBC82 /* AppDelegate.swift */,
-				F547217C2242680C000EBC82 /* ViewController.swift */,
-				F547217E2242680C000EBC82 /* Main.storyboard */,
-				F547218122426811000EBC82 /* Assets.xcassets */,
-				F547218322426811000EBC82 /* Info.plist */,
-			);
-			path = "Example-tvOS";
-			sourceTree = "<group>";
-		};
 		F59CED8F223E8482007CF454 /* RSA */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,7 +272,6 @@
 			children = (
 				F5D857AD223CF081003350B9 /* Source */,
 				F5D8586A223D6F3D003350B9 /* Tests */,
-				F54721792242680C000EBC82 /* Example-tvOS */,
 				F5D857AC223CF081003350B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -756,17 +738,6 @@
 			targetProxy = F547215222422386000EBC82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F547217E2242680C000EBC82 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F547217F2242680C000EBC82 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F54720A72242118F000EBC82 /* Debug */ = {
