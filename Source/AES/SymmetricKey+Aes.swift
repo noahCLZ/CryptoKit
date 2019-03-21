@@ -46,10 +46,8 @@ public extension SymmetricKey where A: Aes {
     
     /// Export key data.
     func exportKey() throws -> Data {
-//        var param = self.storeParam
-//        param[kSecAttrService] = self.keyLabel as AnyObject
         var keyData = Data()
-        let osStatus = self.locateData(storeTag: self.storeTag, service: self.keyLabel, parameters: self.storeParam, output: &keyData)
+        let osStatus = self.locateData(output: &keyData)
         guard osStatus == noErr else {
             throw KeychainError.code(osStatus)
         }
@@ -58,14 +56,13 @@ public extension SymmetricKey where A: Aes {
     
     /// Export IV data.
     func exportIV() throws -> Data {
-//        var param = self.storeParam
-//        param[kSecAttrService] = ivLabel as AnyObject
-        var keyData = Data()
-        let osStatus = self.locateData(storeTag: self.storeTag, service: self.ivLabel, parameters: self.storeParam, output: &keyData)
+        var ivData = Data()
+        let IV = SymmetricKey(algorithm: self.algorithm, userStoreTag: (self.userStoreTag ?? "") + "IV" )
+        let osStatus = IV.locateData(output: &ivData)
         guard osStatus == noErr else {
             throw KeychainError.code(osStatus)
         }
-        return keyData
+        return ivData
     }
 
 }

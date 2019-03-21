@@ -26,7 +26,7 @@ public extension PrivateKey where A: Rsa {
         
         let cryptor = self.algorithm.cryptor
         var keyData = Data()
-        let osStatus = self.locateData(storeTag: self.storeTag, service: nil, parameters: self.storeParam, output: &keyData)
+        let osStatus = self.locateData(output: &keyData)
         guard osStatus == noErr else {
             throw KeychainError.code(osStatus)
         }
@@ -85,7 +85,7 @@ public extension PrivateKey where A: Rsa {
         
         let cryptor = self.algorithm.cryptor
         var keyData = Data()
-        let osStatus = self.locateData(storeTag: self.storeTag, service: nil, parameters: self.storeParam, output: &keyData)
+        let osStatus = self.locateData(output: &keyData)
         guard osStatus == noErr else {
             throw KeychainError.code(osStatus)
         }
@@ -136,4 +136,5 @@ public extension PrivateKey where A: Rsa {
         signedData.count = signedDataLength
         return signedData
     }
+    
 }

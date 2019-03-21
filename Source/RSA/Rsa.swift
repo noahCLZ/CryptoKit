@@ -101,17 +101,8 @@ public extension Rsa {
         
         privateKey.count = privateKeyLength
         
-        let pub = PublicKey(self, storeTag: storeTag)
-        let priv = PrivateKey(self, storeTag: storeTag)
-
-        status = pub.storeData(publicKey, tag: pub.storeTag, service: nil, parameters: pub.storeParam)
-        guard status == noErr else {
-            throw KeychainError.code(status)
-        }
-        status = priv.storeData(privateKey, tag: priv.storeTag, service: nil, parameters: priv.storeParam)
-        guard status == noErr else {
-            throw KeychainError.code(status)
-        }
+        let pub = try importPublicKey(DER: publicKey, storeTag: storeTag)
+        let priv = try importPrivateKey(DER: privateKey, storeTag: storeTag)
         return (pub, priv)
     }
     
@@ -122,8 +113,8 @@ public extension Rsa {
     /// If the storeTag is not provied, the key will be stored at a shared default place in keychain.
     func importPublicKey(DER data: Data, storeTag: String?) throws -> PublicKey<Rsa> {
         let PKCS1Data = try extractPKCS1Data(from: data)
-        let p = PublicKey(self, storeTag: storeTag)
-        let status = p.storeData(PKCS1Data, tag: p.storeTag, service: nil, parameters: p.storeParam)
+        let p = PublicKey(algorithm: self, userStoreTag: storeTag)
+        let status = p.storeData(PKCS1Data)
         guard status == noErr else {
             throw KeychainError.code(status)
         }
@@ -137,8 +128,8 @@ public extension Rsa {
     /// If the storeTag is not provied, the key will be stored at a shared default place in keychain.
     func importPrivateKey(DER data: Data, storeTag: String?) throws -> PrivateKey<Rsa> {
         let PKCS1Data = try extractPKCS1Data(from: data)
-        let p = PrivateKey(self, storeTag: storeTag)
-        let status = p.storeData(PKCS1Data, tag: p.storeTag, service: nil, parameters: p.storeParam)
+        let p = PrivateKey(algorithm: self, userStoreTag: storeTag)
+        let status = p.storeData(PKCS1Data)
         guard status == noErr else {
             throw KeychainError.code(status)
         }
@@ -147,9 +138,9 @@ public extension Rsa {
     
     /// Locate a public key from keychain.
     func locatePublicKey(storeTag: String) throws -> PublicKey<Rsa> {
-        let key = PublicKey(self, storeTag: storeTag)
+        let key = PublicKey(algorithm: self, userStoreTag: storeTag)
         var keyData = Data()
-        let osStatus = key.locateData(storeTag: key.storeTag, service: nil, parameters: key.storeParam, output: &keyData)
+        let osStatus = key.locateData(output: &keyData)
         guard osStatus == noErr else {
             throw KeychainError.code(osStatus)
         }
@@ -158,9 +149,9 @@ public extension Rsa {
     
     /// Locate a private key from keychain.
     func locatePrivateKey(storeTag: String) throws -> PrivateKey<Rsa> {
-        let key = PrivateKey(self, storeTag: storeTag)
+        let key = PrivateKey(algorithm: self, userStoreTag: storeTag)
         var keyData = Data()
-        let osStatus = key.locateData(storeTag: key.storeTag, service: nil, parameters: key.storeParam, output: &keyData)
+        let osStatus = key.locateData(output: &keyData)
         guard osStatus == noErr else {
             throw KeychainError.code(osStatus)
         }

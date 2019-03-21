@@ -8,26 +8,20 @@
 
 import Foundation
 
-open class SymmetricKey<A>: Key<A> where A: AlgorithmIdentifiable {
+open class SymmetricKey<A>: Key where A: AlgorithmIdentifiable {
     
-    override public func invalidate() {
-        _ = delete(storeTag: self.storeTag, service: ivLabel)
-        _ = delete(storeTag: self.storeTag, service: keyLabel)
-    }
-    
-    override init(_ algo: A, storeTag: String?) {
-        super.init(algo, storeTag: storeTag)
-        
-        let storeParam = [
+    override var keychainQuery: [NSString : AnyObject] {
+        return  [
             kSecClass: kSecClassGenericPassword,
+            kSecAttrAccount: self.storeTag as AnyObject,
+            kSecAttrService: self.algorithm.identifier.description as AnyObject,
             kSecAttrAccessible: kSecAttrAccessibleWhenUnlockedThisDeviceOnly,
         ]
-        self.storeParam = storeParam
     }
     
-    let ivLabel = "IV"
-    
-    var keyLabel: String {
-        return self.algorithm.identifier.description
+    public init(algorithm: A, userStoreTag: String?) {
+        self.algorithm = algorithm
+        super.init(userStoreTag: userStoreTag)
     }
+    var algorithm: A
 }

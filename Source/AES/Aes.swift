@@ -39,19 +39,18 @@ public extension Aes {
     }
     
     func `import`(key: Data, iv: Data, storeTag: String?) throws -> SymmetricKey<Aes> {
-        let k = SymmetricKey(self, storeTag: storeTag)
+        let KEY = SymmetricKey(algorithm: self, userStoreTag: storeTag)
+        let IV = SymmetricKey(algorithm: self, userStoreTag: (storeTag ?? "") + "IV")
         
-        let param = k.storeParam
-        
-        var status = k.storeData(key, tag: k.storeTag, service: k.keyLabel, parameters: param)
+        var status = KEY.storeData(key)
         guard status == noErr else {
             throw KeychainError.code(status)
         }
         
-        status = k.storeData(iv, tag: k.storeTag, service: k.ivLabel, parameters: param)
+        status = IV.storeData(iv)
         guard status == noErr else {
             throw KeychainError.code(status)
         }
-        return k
+        return KEY
     }
 }

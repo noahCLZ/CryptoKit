@@ -8,30 +8,22 @@
 
 import Foundation
 
-open class Key<A> where A: AlgorithmIdentifiable {
+open class Key {
     
     //MARK: Services
     
     /// Remove self from keychain
     public func invalidate() {
-        _ = delete(storeTag: self.storeTag, service: nil)
+        _ = delete()
     }
     
-    func locateData(storeTag tag: String, service: String?, parameters p: [NSString : AnyObject], output: inout Data) -> OSStatus {
-        var parameters: [NSString : AnyObject]
+    //MARK: Internal
+    
+    func locateData(output: inout Data) -> OSStatus {
         
-        if let service = service {
-            parameters = [
-                kSecClass : kSecClassGenericPassword,
-                kSecAttrAccount: tag as AnyObject,
-                kSecAttrService: service as AnyObject,
-                kSecReturnData : true as AnyObject
-            ]
-        } else {
-            parameters = p
-            parameters[kSecReturnData] = true as AnyObject
-            parameters[kSecAttrApplicationTag] = tag as AnyObject
-        }
+        var parameters: [NSString : AnyObject] = self.keychainQuery
+        parameters[kSecReturnData] = true as AnyObject
+        
         var data: CFTypeRef?
         let status = SecItemCopyMatching(parameters as CFDictionary, &data)
         if data != nil {
@@ -40,61 +32,45 @@ open class Key<A> where A: AlgorithmIdentifiable {
         return status
     }
     
-    func storeData(_ data: Data, tag: String, service: String?, parameters p: [NSString : AnyObject]) -> OSStatus {
-        var parameters = p
+    func delete() -> OSStatus {
+        return SecItemDelete(self.keychainQuery as CFDictionary)
+    }
+    
+    func storeData(_ data: Data) -> OSStatus {
+        var parameters = self.keychainQuery
         parameters[kSecValueData] = data as AnyObject
-        if let service = service {
-            parameters[kSecAttrService] = service as AnyObject
-            parameters[kSecAttrAccount] = tag as AnyObject
-        } else {
-            parameters[kSecAttrApplicationTag] = tag as AnyObject
-        }
         var status = SecItemAdd(parameters as CFDictionary, nil)
         if status == errSecDuplicateItem {
-            status = delete(storeTag: tag, service: service)
+            status = delete()
             status = SecItemAdd(parameters as CFDictionary, nil)
         }
         return status
     }
     
-    func delete(storeTag tag: String, service: String?) -> OSStatus {
-        let theQuery: [NSString : AnyObject]
-        if let service = service {
-            theQuery = [
-                kSecClass: kSecClassGenericPassword,
-                kSecAttrAccount: tag as AnyObject,
-                kSecAttrService: service as AnyObject
-            ]
-        } else {
-            theQuery = [
-                kSecClass: kSecClassKey,
-                kSecAttrApplicationTag : tag as AnyObject,
-            ]
-        }
-        return SecItemDelete(theQuery as CFDictionary)
-    }
-    
     //MARK: Init
-    
-    init(_ algo: A, storeTag: String?) {
-        self.algorithm = algo
-        self.userStoreTag = storeTag
+
+    public init(userStoreTag: String?) {
+        self.userStoreTag = userStoreTag
     }
     
     //MARK: Properties
     
-    var storeParam: [NSString: AnyObject] = [:]
+    public var storeTag: String {
+        if let userStoreTag = userStoreTag {
+            return defaultStoreTag + userStoreTag
+        } else {
+            return defaultStoreTag
+        }
+    }
     
-    var defaultStoreTag: String {
-        return String(describing: self) + "." + self.algorithm.identifier.description
+    var keychainQuery: [NSString: AnyObject] {
+        return [:]
     }
     
     var userStoreTag: String?
     
-    var storeTag: String {
-        return (userStoreTag ?? "") + defaultStoreTag
+    var defaultStoreTag: String {
+        return String(describing: self)
     }
-    
-    let algorithm: A
     
 }

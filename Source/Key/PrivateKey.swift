@@ -8,19 +8,23 @@
 
 import Foundation
 
-open class PrivateKey<A>: Key<A> where A: AlgorithmIdentifiable {
+open class PrivateKey<A>: Key where A: AlgorithmIdentifiable {
     
-    override init(_ algo: A, storeTag: String?) {
-        super.init(algo, storeTag: storeTag)
-
-        let storeParam = [
+    override var keychainQuery: [NSString : AnyObject] {
+        return [
             kSecClass: kSecClassKey,
             kSecAttrKeyClass: kSecAttrKeyClassPrivate,
             kSecAttrIsPermanent: true as AnyObject,
             kSecAttrAccessible: kSecAttrAccessibleWhenUnlockedThisDeviceOnly,
-            kSecAttrKeyType: self.algorithm.identifier.description as AnyObject
+            kSecAttrKeyType: self.algorithm.identifier.description as AnyObject,
+            kSecAttrApplicationTag: self.storeTag as AnyObject
         ]
-        self.storeParam = storeParam
     }
+    
+    public init(algorithm: A, userStoreTag: String?) {
+        self.algorithm = algorithm
+        super.init(userStoreTag: userStoreTag)
+    }
+    var algorithm: A
 }
 
