@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F55967872242A6490000368C"
-               BuildableName = "Example-tvOS.app"
-               BlueprintName = "Example-tvOS"
+               BlueprintIdentifier = "F559679A2242A68C0000368C"
+               BuildableName = "Example-iOS.app"
+               BlueprintName = "Example-iOS"
                ReferencedContainer = "container:CryptoKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F55967872242A6490000368C"
-            BuildableName = "Example-tvOS.app"
-            BlueprintName = "Example-tvOS"
+            BlueprintIdentifier = "F559679A2242A68C0000368C"
+            BuildableName = "Example-iOS.app"
+            BlueprintName = "Example-iOS"
             ReferencedContainer = "container:CryptoKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F55967872242A6490000368C"
-            BuildableName = "Example-tvOS.app"
-            BlueprintName = "Example-tvOS"
+            BlueprintIdentifier = "F559679A2242A68C0000368C"
+            BuildableName = "Example-iOS.app"
+            BlueprintName = "Example-iOS"
             ReferencedContainer = "container:CryptoKit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F55967872242A6490000368C"
-            BuildableName = "Example-tvOS.app"
-            BlueprintName = "Example-tvOS"
+            BlueprintIdentifier = "F559679A2242A68C0000368C"
+            BuildableName = "Example-iOS.app"
+            BlueprintName = "Example-iOS"
             ReferencedContainer = "container:CryptoKit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

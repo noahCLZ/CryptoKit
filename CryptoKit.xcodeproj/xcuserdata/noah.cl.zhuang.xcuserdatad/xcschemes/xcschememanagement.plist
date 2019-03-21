@@ -16,6 +16,8 @@
 		</dict>
 		<key>CryptoKit-macOS.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
@@ -28,6 +30,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
+		</dict>
+		<key>Example-iOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>Example-tvOS.xcscheme_^#shared#^_</key>
 		<dict>
@@ -83,6 +90,16 @@
 			<true/>
 		</dict>
 		<key>F54721772242680C000EBC82</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F55967872242A6490000368C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F559679A2242A68C0000368C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

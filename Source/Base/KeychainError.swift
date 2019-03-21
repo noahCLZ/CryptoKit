@@ -17,8 +17,8 @@ public enum KeychainError: Error, LocalizedError {
     public var errorDescription: String? {
         switch self {
         case .code(let value):
-            if #available(iOS 11.3, *) {
-                return (SecCopyErrorMessageString(value, nil) as String?) ?? ""
+            if #available(iOS 11.3, tvOS 11.3, watchOS 4.3, *)  {
+                    return (SecCopyErrorMessageString(value, nil) as String?) ?? ""
             } else {
                 // Fallback on earlier versions
                 let nsError = NSError(domain: NSOSStatusErrorDomain, code: Int(value), userInfo: nil)
