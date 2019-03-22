@@ -10,8 +10,10 @@ CryptoKit is a wrapper of Apple's CommonCrypto library including the most used f
 - SHA
 - RSA
 - AES
+- Importing keys
 - Keychain integration
 
 ## Usage
 - SHA - [Message digest](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#message-digest)
-- RSA - [Key generation](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#rsa---key-generation), [Encryption](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#rsa---encryption), [Decryption](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#rsa---decryption), [Signing](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#rsa---signing), [Verifying](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#rsa---verifying)
+- RSA - [Key generation](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#rsa---key-generation), [Encryption](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#rsa---encryption), [Decryption](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#rsa---decryption), [Signing](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#rsa---signing), [Verifying](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#rsa---verifying), [Importing key](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#rsa---importing-key)
+- AES - [Key generation](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#aes---key-generation), [Encryption](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#aes---encryption), [Decryption](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#aes---decryption), [Importing key](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#aes---importing-key)
