@@ -12,4 +12,4 @@ CryptoKit is a wrapper of Apple's CommonCrypto library including the most used f
 - Keychain integration
 
 ## Usage
-- RSA: [Key generation]()
+- RSA - [Key generation](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#RSA-Key-generation), [Encryption](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#RSA-Encryption), [Decryption](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#RSA-Decryption)
