@@ -105,6 +105,10 @@
 		F55967A32242A68C0000368C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55967A12242A68C0000368C /* Main.storyboard */; };
 		F55967A52242A68D0000368C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55967A42242A68D0000368C /* Assets.xcassets */; };
 		F55967A82242A68D0000368C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55967A62242A68D0000368C /* LaunchScreen.storyboard */; };
+		F55967DF2244D2C80000368C /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55967DC2244D23F0000368C /* Hash.swift */; };
+		F55967E02244D2C90000368C /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55967DC2244D23F0000368C /* Hash.swift */; };
+		F55967E12244D2CA0000368C /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55967DC2244D23F0000368C /* Hash.swift */; };
+		F55967E22244D2CA0000368C /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55967DC2244D23F0000368C /* Hash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -186,6 +190,8 @@
 		F55967A42242A68D0000368C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F55967A72242A68D0000368C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F55967A92242A68D0000368C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55967DC2244D23F0000368C /* Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
+		F55967E42244D3A10000368C /* Usage.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Usage.md; sourceTree = "<group>"; };
 		F59CED8B223DDB5F007CF454 /* KeychainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainError.swift; sourceTree = "<group>"; };
 		F59CED8D223DDEF1007CF454 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
 		F59CED90223EB9DF007CF454 /* PrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
@@ -319,6 +325,14 @@
 			path = "Example-iOS";
 			sourceTree = "<group>";
 		};
+		F55967E32244D3A10000368C /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				F55967E42244D3A10000368C /* Usage.md */,
+			);
+			path = Docs;
+			sourceTree = SOURCE_ROOT;
+		};
 		F59CED8F223E8482007CF454 /* RSA */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,6 +365,7 @@
 				F59CEDA5223FA703007CF454 /* Key.swift */,
 				F59CED8D223DDEF1007CF454 /* Algorithm.swift */,
 				F5471FD22240891F000EBC82 /* BlockCipher.swift */,
+				F55967DC2244D23F0000368C /* Hash.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -387,6 +402,7 @@
 			children = (
 				F5D857AE223CF081003350B9 /* CryptoKit.h */,
 				F5D857AF223CF081003350B9 /* Info.plist */,
+				F55967E32244D3A10000368C /* Docs */,
 				F5471FD622409475000EBC82 /* AES */,
 				F59CED8F223E8482007CF454 /* RSA */,
 				F5471FEC2240C9C9000EBC82 /* Key */,
@@ -754,6 +770,7 @@
 				F54721072242164D000EBC82 /* Algorithm.swift in Sources */,
 				F54720FF2242164D000EBC82 /* RSACryptor.swift in Sources */,
 				F54721022242164D000EBC82 /* Random.swift in Sources */,
+				F55967DF2244D2C80000368C /* Hash.swift in Sources */,
 				F54720E822421621000EBC82 /* PrivateKey+Rsa.swift in Sources */,
 				F54721042242164D000EBC82 /* CCError.swift in Sources */,
 				F54720DE2242160B000EBC82 /* Aes.swift in Sources */,
@@ -780,6 +797,7 @@
 				F54721122242164E000EBC82 /* Algorithm.swift in Sources */,
 				F547210A2242164E000EBC82 /* RSACryptor.swift in Sources */,
 				F547210D2242164E000EBC82 /* Random.swift in Sources */,
+				F55967E02244D2C90000368C /* Hash.swift in Sources */,
 				F54720EB22421622000EBC82 /* PrivateKey+Rsa.swift in Sources */,
 				F547210F2242164E000EBC82 /* CCError.swift in Sources */,
 				F54720DC2242160A000EBC82 /* Aes.swift in Sources */,
@@ -806,6 +824,7 @@
 				F547211D2242164F000EBC82 /* Algorithm.swift in Sources */,
 				F54721152242164F000EBC82 /* RSACryptor.swift in Sources */,
 				F54721182242164F000EBC82 /* Random.swift in Sources */,
+				F55967E12244D2CA0000368C /* Hash.swift in Sources */,
 				F54720EE22421623000EBC82 /* PrivateKey+Rsa.swift in Sources */,
 				F547211A2242164F000EBC82 /* CCError.swift in Sources */,
 				F54720E02242160C000EBC82 /* Aes.swift in Sources */,
@@ -832,6 +851,7 @@
 				F547212822421650000EBC82 /* Algorithm.swift in Sources */,
 				F547212022421650000EBC82 /* RSACryptor.swift in Sources */,
 				F547212322421650000EBC82 /* Random.swift in Sources */,
+				F55967E22244D2CA0000368C /* Hash.swift in Sources */,
 				F54720F122421623000EBC82 /* PrivateKey+Rsa.swift in Sources */,
 				F547212522421650000EBC82 /* CCError.swift in Sources */,
 				F54720E42242160F000EBC82 /* Aes.swift in Sources */,

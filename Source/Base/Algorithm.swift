@@ -33,27 +33,6 @@ public enum Algorithm {
     public enum Asymmetric: UInt32, Codable {
         case rsa, ec
     }
-    
-    public enum Hash: UInt32 {
-        case sha1 = 8
-        case sha224 = 9, sha256 = 10, sha384 = 11, sha512 = 12
-        
-        func digest(_ data: Data) throws -> Data {
-            let d = try Digest()
-            let outputSize = d.getOutputSize!(self.rawValue)
-            var output = Data(count: outputSize)
-            let status = output.withUnsafeMutableBytes { (outputBytes: UnsafeMutablePointer<UInt8>) -> Int32 in
-                return d.digest!(self.rawValue,
-                            (data as NSData).bytes,
-                            data.count,
-                            outputBytes)
-            }
-            if status != 0 {
-                throw CCError.code(status)
-            }
-            return output
-        }
-    }
 }
 
 public protocol AlgorithmIdentifiable {

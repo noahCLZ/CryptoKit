@@ -22,7 +22,7 @@ public extension PublicKey where A: Rsa {
          - data: plain data.
          - hash: Hash function, of type Algorithm.Hash.
      */
-    public func encrypt(_ data: Data, hash: Algorithm.Hash?) throws -> Data {
+    public func encrypt(_ data: Data, hash: Hash?) throws -> Data {
         
         // 0. locate public key
         
@@ -78,7 +78,7 @@ public extension PublicKey where A: Rsa {
     }
     
     
-    public func verify(signature: Data, with data: Data, hash: Algorithm.Hash, success: inout Bool) throws {
+    public func verify(signature: Data, with data: Data, hash: Hash, success: inout Bool) throws {
         
         success = false
         
