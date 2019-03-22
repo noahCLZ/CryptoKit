@@ -3,6 +3,21 @@
 import CryptoKit
 ```
 
+### SHA - Message digest
+```swift
+do {
+    let text = "SHA family"
+    let data = text.data(using: .utf8)!
+    let sha1_digest = try Hash.sha1.digest(data)
+    let sha224_digest = try Hash.sha224.digest(data)
+    let sha256_digest = try Hash.sha256.digest(data)
+    let sha384_digest = try Hash.sha384.digest(data)
+    let sha512_digest = try Hash.sha512.digest(data)
+} catch {
+    // Handle error here. 
+}
+```
+
 ### RSA - Key generation
 ```swift
 do {
