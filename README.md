@@ -4,6 +4,12 @@
 ![platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20tvOS%20%7C%20watchOS-informational.svg)
 
 
-A pragmatic crypto framework for iOS, watchOS, and tvOS
+CryptoKit is a wrapper of Apple's CommonCrypto library including the most used functionalities only.
+
+## Features
+- RSA
+- AES
+- Keychain integration
 
 ## Usage
+- RSA: [Key generation]()
