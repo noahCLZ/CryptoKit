@@ -21,7 +21,7 @@ do {
     // Suppose we have a pub of type PublicKey<Rsa> here.
     let plainText = "Hello, Cryptokit!"
     let plainData = plainText.data(using: .utf8)!
-    let encrypted = try pub.encrypt(plainData, hash: Algorithm.Hash.sha256)
+    let encrypted = try pub.encrypt(plainData, hash: Hash.sha256)
     
     // Return type of encrypted is Data.
     // The hash can be nil to perform RSA-PKCS1 encryption. Otherwise, RSA-OAEP encryption is performed.  
@@ -34,7 +34,7 @@ do {
 ```swift
 do {
     // Suppose we have a priv of type PrivateKey<Rsa>, and an encrypted of type Data here.
-    let decrypted = try priv.decrypt(encrypted, hash: Algorithm.Hash.sha256)
+    let decrypted = try priv.decrypt(encrypted, hash: Hash.sha256)
     
     // Return type of decrypted is Data.
     // The hash can be nil to perform RSA-PKCS1 decryption. Otherwise, RSA-OAEP decryption is performed.  
@@ -49,7 +49,7 @@ do {
     // Suppose we have a priv of type PrivateKey<Rsa> here.
     let message = "Cryptokit signing!"
     let messageData = message.data(using: .utf8)!
-    let signature = try priv.sign(messageData, hash:  Algorithm.Hash.sha256)
+    let signature = try priv.sign(messageData, hash:  Hash.sha256)
     
     // Return type of signature is Data.
 } catch {
