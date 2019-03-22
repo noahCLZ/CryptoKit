@@ -106,6 +106,7 @@ do {
     let encrypted = try Rsa()
         .importPublicKey(DER: publicKey_DER, storeTag: "public key import")
         .encrypt(plainData, hash: nil)
+        
     let decrypted = try Rsa()
         .importPrivateKey(DER: privateKey_DER, storeTag: "private key import")
         .decrypt(encrypted, hash: nil)
@@ -152,6 +153,74 @@ do {
         .importPrivateKey(DER: privateKey_DER, storeTag: "private key import")
         .decrypt(encrypted, hash: nil)
 
+} catch {
+    // Handle error here. 
+}
+```
+
+### AES - Key generation
+```swift
+do {
+    let key = try Aes().generate(size: .In16Bytes, storeTag: "AES key generation")
+    
+    // Return type of key is SymmetricKey<Aes>.
+    // The key is stored in the keychain and associated with the tag "AES key generation".
+} catch {
+    // Handle error here. 
+}
+```
+
+### AES - Encryption
+```swift
+do {
+    // Suppose we have a key of type SymmetricKey<Aes> here.
+    let plainText = "Hello, Cryptokit!"
+    let plainData = plainText.data(using: .utf8)!
+    let encrypted = try key.encrypt(plainData, mode: .cbc)
+    
+    // Return type of encrypted is Data.
+    // CryptoKit AES only support PKCS#7(PKCS#5) padding. Bloch cipher without padding will make it harder to use.
+} catch {
+    // Handle error here. 
+}
+```
+
+### AES - Decryption
+```swift
+do {
+    // // Suppose we have a key of type SymmetricKey<Aes>, and an encrypted of type Data here.
+    let decrypted = try key.decrypt(encrypted, mode: .cbc)
+    
+    // Return type of decrypted is Data.
+    // CryptoKit AES only support PKCS#7(PKCS#5) padding. Bloch cipher without padding will make it harder to use. 
+} catch {
+    // Handle error here. 
+}
+```
+
+### AES - Importing key
+```swift
+do {
+    let keyText = "jkjkjkjkjkjkjkjk"
+    let keyData = keyText.data(using: .utf8)!
+    let ivData = Data(repeating: 1, count: 1)
+    
+    let key = try Aes().import(key: keyData, iv: ivData, storeTag: "key import")
+    
+    // One shot solution if we only care about the operation results.
+    let plainText = "Hello, Cryptokit!"
+    let plainData = plainText.data(using: .utf8)!
+
+    let encrypted = try Aes()
+        .import(key: keyData, iv: ivData, storeTag: "key import")
+        .encrypt(plainData, mode: .cbc)
+
+    let decrypted = try Aes()
+        .import(key: keyData, iv: ivData, storeTag: "key import")
+        .decrypt(encrypted, mode: .cbc)
+                
+    // AES support key size with 16, 24, and 32 bytes.
+    // IV size for AES is 16 bytes. The insufficient bits will be filled with 0.
 } catch {
     // Handle error here. 
 }
