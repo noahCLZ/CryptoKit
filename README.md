@@ -7,9 +7,11 @@
 CryptoKit is a wrapper of Apple's CommonCrypto library including the most used functionalities only.
 
 ## Features
+- SHA
 - RSA
 - AES
 - Keychain integration
 
 ## Usage
+- SHA - [Message digest](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#message-digest)
 - RSA - [Key generation](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#rsa---key-generation), [Encryption](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#rsa---encryption), [Decryption](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#rsa---decryption), [Signing](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#rsa---signing), [Verifying](https://github.com/noahCLZ/CryptoKit/blob/master/Docs/Usage.md#rsa---verifying)
