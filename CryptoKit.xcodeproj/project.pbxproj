@@ -109,6 +109,9 @@
 		F55967E02244D2C90000368C /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55967DC2244D23F0000368C /* Hash.swift */; };
 		F55967E12244D2CA0000368C /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55967DC2244D23F0000368C /* Hash.swift */; };
 		F55967E22244D2CA0000368C /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55967DC2244D23F0000368C /* Hash.swift */; };
+		F55967E6224523FF0000368C /* HashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55967E5224523FF0000368C /* HashTests.swift */; };
+		F55967E7224523FF0000368C /* HashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55967E5224523FF0000368C /* HashTests.swift */; };
+		F55967E8224523FF0000368C /* HashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55967E5224523FF0000368C /* HashTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +195,7 @@
 		F55967A92242A68D0000368C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F55967DC2244D23F0000368C /* Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
 		F55967E42244D3A10000368C /* Usage.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Usage.md; sourceTree = "<group>"; };
+		F55967E5224523FF0000368C /* HashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTests.swift; sourceTree = "<group>"; };
 		F59CED8B223DDB5F007CF454 /* KeychainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainError.swift; sourceTree = "<group>"; };
 		F59CED8D223DDEF1007CF454 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
 		F59CED90223EB9DF007CF454 /* PrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
@@ -416,6 +420,7 @@
 			children = (
 				F5D8586B223D6F3D003350B9 /* RsaTests.swift */,
 				F5471FE12240B1E5000EBC82 /* AesTests.swift */,
+				F55967E5224523FF0000368C /* HashTests.swift */,
 				F5D8586D223D6F3D003350B9 /* Info.plist */,
 			);
 			path = Tests;
@@ -873,6 +878,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F55967E6224523FF0000368C /* HashTests.swift in Sources */,
 				F559675F224296040000368C /* RsaTests.swift in Sources */,
 				F55967642242966F0000368C /* AesTests.swift in Sources */,
 			);
@@ -882,6 +888,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F55967E7224523FF0000368C /* HashTests.swift in Sources */,
 				F55967622242966B0000368C /* RsaTests.swift in Sources */,
 				F5596766224296720000368C /* AesTests.swift in Sources */,
 			);
@@ -891,6 +898,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F55967E8224523FF0000368C /* HashTests.swift in Sources */,
 				F55967632242966C0000368C /* RsaTests.swift in Sources */,
 				F5596767224296720000368C /* AesTests.swift in Sources */,
 			);
