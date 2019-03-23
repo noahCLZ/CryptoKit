@@ -25,7 +25,6 @@ CryptoKit is a wrapper of Apple's CommonCrypto library including the most used f
 [CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate CryptoKit into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-# Podfile
 use_frameworks!
 
 target 'YOUR_TARGET_NAME' do
