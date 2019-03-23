@@ -2,7 +2,9 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CryptoKit+"
-  spec.version      = "1.0.3"
+  spec.module_name = "CryptoKit"
+
+  spec.version      = "1.0.4"
   spec.summary      = "A pragmatic crypto framework for iOS, watchOS, and tvOS."
   spec.description  = <<-DESC
 CryptoKit is a wrapper of Apple's CommonCrypto library including the most used functionalities only.
