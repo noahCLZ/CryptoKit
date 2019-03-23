@@ -14,6 +14,6 @@ CryptoKit is a wrapper of Apple's CommonCrypto library including the most used f
   spec.watchos.deployment_target = "2.0"
   spec.tvos.deployment_target = "9.0"
   spec.source       = { :git => "https://github.com/noahCLZ/CryptoKit.git", :tag => "#{spec.version}" }
-  spec.source_files  = "Source/*.swift"
-  
+  spec.source_files  = "Source/*.{swift,h,m}"
+
 end
