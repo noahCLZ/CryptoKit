@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "CryptoKit"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of CryptoKit."
+  spec.summary      = "A pragmatic crypto framework for iOS, watchOS, and tvOS."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+CryptoKit is a wrapper of Apple's CommonCrypto library including the most used functionalities only.
                    DESC
 
   spec.homepage     = "https://github.com/noahCLZ/CryptoKit.git"
