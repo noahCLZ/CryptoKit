@@ -11,6 +11,7 @@ CryptoKit is a wrapper of Apple's CommonCrypto library including the most used f
 - RSA
 - AES
 - Importing keys
+- Exporting keys
 - Keychain integration
 
 ## Usage
