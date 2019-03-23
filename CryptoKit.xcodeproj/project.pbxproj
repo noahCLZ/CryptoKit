@@ -115,6 +115,94 @@
 		F55967E6224523FF0000368C /* HashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55967E5224523FF0000368C /* HashTests.swift */; };
 		F55967E7224523FF0000368C /* HashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55967E5224523FF0000368C /* HashTests.swift */; };
 		F55967E8224523FF0000368C /* HashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55967E5224523FF0000368C /* HashTests.swift */; };
+		F5FB341E2245E4B700ED2701 /* Pods-CryptoKit-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FB33F82245E4B700ED2701 /* Pods-CryptoKit-watchOS-umbrella.h */; };
+		F5FB341F2245E4B700ED2701 /* Pods-CryptoKit-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FB33F82245E4B700ED2701 /* Pods-CryptoKit-watchOS-umbrella.h */; };
+		F5FB34202245E4B700ED2701 /* Pods-CryptoKit-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FB33F82245E4B700ED2701 /* Pods-CryptoKit-watchOS-umbrella.h */; };
+		F5FB34212245E4B700ED2701 /* Pods-CryptoKit-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FB33F82245E4B700ED2701 /* Pods-CryptoKit-watchOS-umbrella.h */; };
+		F5FB34222245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33F92245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.plist */; };
+		F5FB34232245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33F92245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.plist */; };
+		F5FB34242245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33F92245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.plist */; };
+		F5FB34252245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33F92245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.plist */; };
+		F5FB34262245E4B700ED2701 /* Pods-CryptoKit-watchOS.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33FB2245E4B700ED2701 /* Pods-CryptoKit-watchOS.debug.xcconfig */; };
+		F5FB34272245E4B700ED2701 /* Pods-CryptoKit-watchOS.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33FB2245E4B700ED2701 /* Pods-CryptoKit-watchOS.debug.xcconfig */; };
+		F5FB34282245E4B700ED2701 /* Pods-CryptoKit-watchOS.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33FB2245E4B700ED2701 /* Pods-CryptoKit-watchOS.debug.xcconfig */; };
+		F5FB34292245E4B700ED2701 /* Pods-CryptoKit-watchOS.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33FB2245E4B700ED2701 /* Pods-CryptoKit-watchOS.debug.xcconfig */; };
+		F5FB342A2245E4B700ED2701 /* Pods-CryptoKit-watchOS.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33FC2245E4B700ED2701 /* Pods-CryptoKit-watchOS.release.xcconfig */; };
+		F5FB342B2245E4B700ED2701 /* Pods-CryptoKit-watchOS.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33FC2245E4B700ED2701 /* Pods-CryptoKit-watchOS.release.xcconfig */; };
+		F5FB342C2245E4B700ED2701 /* Pods-CryptoKit-watchOS.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33FC2245E4B700ED2701 /* Pods-CryptoKit-watchOS.release.xcconfig */; };
+		F5FB342D2245E4B700ED2701 /* Pods-CryptoKit-watchOS.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33FC2245E4B700ED2701 /* Pods-CryptoKit-watchOS.release.xcconfig */; };
+		F5FB342E2245E4B700ED2701 /* Pods-CryptoKit-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB33FD2245E4B700ED2701 /* Pods-CryptoKit-watchOS-dummy.m */; };
+		F5FB342F2245E4B700ED2701 /* Pods-CryptoKit-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB33FD2245E4B700ED2701 /* Pods-CryptoKit-watchOS-dummy.m */; };
+		F5FB34302245E4B700ED2701 /* Pods-CryptoKit-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB33FD2245E4B700ED2701 /* Pods-CryptoKit-watchOS-dummy.m */; };
+		F5FB34312245E4B700ED2701 /* Pods-CryptoKit-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB33FD2245E4B700ED2701 /* Pods-CryptoKit-watchOS-dummy.m */; };
+		F5FB34322245E4B700ED2701 /* Pods-CryptoKit-watchOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33FE2245E4B700ED2701 /* Pods-CryptoKit-watchOS-Info.plist */; };
+		F5FB34332245E4B700ED2701 /* Pods-CryptoKit-watchOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33FE2245E4B700ED2701 /* Pods-CryptoKit-watchOS-Info.plist */; };
+		F5FB34342245E4B700ED2701 /* Pods-CryptoKit-watchOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33FE2245E4B700ED2701 /* Pods-CryptoKit-watchOS-Info.plist */; };
+		F5FB34352245E4B700ED2701 /* Pods-CryptoKit-watchOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33FE2245E4B700ED2701 /* Pods-CryptoKit-watchOS-Info.plist */; };
+		F5FB34362245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33FF2245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.markdown */; };
+		F5FB34372245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33FF2245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.markdown */; };
+		F5FB34382245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33FF2245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.markdown */; };
+		F5FB34392245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = F5FB33FF2245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.markdown */; };
+		F5FB343A2245E4B700ED2701 /* Pods-CryptoKit-tvOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34012245E4B700ED2701 /* Pods-CryptoKit-tvOS-Info.plist */; };
+		F5FB343B2245E4B700ED2701 /* Pods-CryptoKit-tvOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34012245E4B700ED2701 /* Pods-CryptoKit-tvOS-Info.plist */; };
+		F5FB343C2245E4B700ED2701 /* Pods-CryptoKit-tvOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34012245E4B700ED2701 /* Pods-CryptoKit-tvOS-Info.plist */; };
+		F5FB343D2245E4B700ED2701 /* Pods-CryptoKit-tvOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34012245E4B700ED2701 /* Pods-CryptoKit-tvOS-Info.plist */; };
+		F5FB343E2245E4B700ED2701 /* Pods-CryptoKit-tvOS.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34022245E4B700ED2701 /* Pods-CryptoKit-tvOS.debug.xcconfig */; };
+		F5FB343F2245E4B700ED2701 /* Pods-CryptoKit-tvOS.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34022245E4B700ED2701 /* Pods-CryptoKit-tvOS.debug.xcconfig */; };
+		F5FB34402245E4B700ED2701 /* Pods-CryptoKit-tvOS.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34022245E4B700ED2701 /* Pods-CryptoKit-tvOS.debug.xcconfig */; };
+		F5FB34412245E4B700ED2701 /* Pods-CryptoKit-tvOS.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34022245E4B700ED2701 /* Pods-CryptoKit-tvOS.debug.xcconfig */; };
+		F5FB34422245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34032245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.plist */; };
+		F5FB34432245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34032245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.plist */; };
+		F5FB34442245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34032245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.plist */; };
+		F5FB34452245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34032245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.plist */; };
+		F5FB34462245E4B700ED2701 /* Pods-CryptoKit-tvOS.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34042245E4B700ED2701 /* Pods-CryptoKit-tvOS.release.xcconfig */; };
+		F5FB34472245E4B700ED2701 /* Pods-CryptoKit-tvOS.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34042245E4B700ED2701 /* Pods-CryptoKit-tvOS.release.xcconfig */; };
+		F5FB34482245E4B700ED2701 /* Pods-CryptoKit-tvOS.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34042245E4B700ED2701 /* Pods-CryptoKit-tvOS.release.xcconfig */; };
+		F5FB34492245E4B700ED2701 /* Pods-CryptoKit-tvOS.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34042245E4B700ED2701 /* Pods-CryptoKit-tvOS.release.xcconfig */; };
+		F5FB344A2245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34052245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.markdown */; };
+		F5FB344B2245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34052245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.markdown */; };
+		F5FB344C2245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34052245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.markdown */; };
+		F5FB344D2245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34052245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.markdown */; };
+		F5FB344E2245E4B700ED2701 /* Pods-CryptoKit-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FB34072245E4B700ED2701 /* Pods-CryptoKit-tvOS-umbrella.h */; };
+		F5FB344F2245E4B700ED2701 /* Pods-CryptoKit-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FB34072245E4B700ED2701 /* Pods-CryptoKit-tvOS-umbrella.h */; };
+		F5FB34502245E4B700ED2701 /* Pods-CryptoKit-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FB34072245E4B700ED2701 /* Pods-CryptoKit-tvOS-umbrella.h */; };
+		F5FB34512245E4B700ED2701 /* Pods-CryptoKit-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FB34072245E4B700ED2701 /* Pods-CryptoKit-tvOS-umbrella.h */; };
+		F5FB34522245E4B700ED2701 /* Pods-CryptoKit-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB34082245E4B700ED2701 /* Pods-CryptoKit-tvOS-dummy.m */; };
+		F5FB34532245E4B700ED2701 /* Pods-CryptoKit-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB34082245E4B700ED2701 /* Pods-CryptoKit-tvOS-dummy.m */; };
+		F5FB34542245E4B700ED2701 /* Pods-CryptoKit-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB34082245E4B700ED2701 /* Pods-CryptoKit-tvOS-dummy.m */; };
+		F5FB34552245E4B700ED2701 /* Pods-CryptoKit-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB34082245E4B700ED2701 /* Pods-CryptoKit-tvOS-dummy.m */; };
+		F5FB34562245E4B700ED2701 /* Pods-CryptoKit-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB340A2245E4B700ED2701 /* Pods-CryptoKit-iOS-dummy.m */; };
+		F5FB34572245E4B700ED2701 /* Pods-CryptoKit-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB340A2245E4B700ED2701 /* Pods-CryptoKit-iOS-dummy.m */; };
+		F5FB34582245E4B700ED2701 /* Pods-CryptoKit-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB340A2245E4B700ED2701 /* Pods-CryptoKit-iOS-dummy.m */; };
+		F5FB34592245E4B700ED2701 /* Pods-CryptoKit-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB340A2245E4B700ED2701 /* Pods-CryptoKit-iOS-dummy.m */; };
+		F5FB345A2245E4B700ED2701 /* Pods-CryptoKit-iOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB340B2245E4B700ED2701 /* Pods-CryptoKit-iOS-Info.plist */; };
+		F5FB345B2245E4B700ED2701 /* Pods-CryptoKit-iOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB340B2245E4B700ED2701 /* Pods-CryptoKit-iOS-Info.plist */; };
+		F5FB345C2245E4B700ED2701 /* Pods-CryptoKit-iOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB340B2245E4B700ED2701 /* Pods-CryptoKit-iOS-Info.plist */; };
+		F5FB345D2245E4B700ED2701 /* Pods-CryptoKit-iOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB340B2245E4B700ED2701 /* Pods-CryptoKit-iOS-Info.plist */; };
+		F5FB345E2245E4B700ED2701 /* Pods-CryptoKit-iOS.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB340C2245E4B700ED2701 /* Pods-CryptoKit-iOS.debug.xcconfig */; };
+		F5FB345F2245E4B700ED2701 /* Pods-CryptoKit-iOS.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB340C2245E4B700ED2701 /* Pods-CryptoKit-iOS.debug.xcconfig */; };
+		F5FB34602245E4B700ED2701 /* Pods-CryptoKit-iOS.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB340C2245E4B700ED2701 /* Pods-CryptoKit-iOS.debug.xcconfig */; };
+		F5FB34612245E4B700ED2701 /* Pods-CryptoKit-iOS.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB340C2245E4B700ED2701 /* Pods-CryptoKit-iOS.debug.xcconfig */; };
+		F5FB34622245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB340D2245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.plist */; };
+		F5FB34632245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB340D2245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.plist */; };
+		F5FB34642245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB340D2245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.plist */; };
+		F5FB34652245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5FB340D2245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.plist */; };
+		F5FB34662245E4B700ED2701 /* Pods-CryptoKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FB340E2245E4B700ED2701 /* Pods-CryptoKit-iOS-umbrella.h */; };
+		F5FB34672245E4B700ED2701 /* Pods-CryptoKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FB340E2245E4B700ED2701 /* Pods-CryptoKit-iOS-umbrella.h */; };
+		F5FB34682245E4B700ED2701 /* Pods-CryptoKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FB340E2245E4B700ED2701 /* Pods-CryptoKit-iOS-umbrella.h */; };
+		F5FB34692245E4B700ED2701 /* Pods-CryptoKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FB340E2245E4B700ED2701 /* Pods-CryptoKit-iOS-umbrella.h */; };
+		F5FB346A2245E4B700ED2701 /* Pods-CryptoKit-iOS.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34102245E4B700ED2701 /* Pods-CryptoKit-iOS.release.xcconfig */; };
+		F5FB346B2245E4B700ED2701 /* Pods-CryptoKit-iOS.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34102245E4B700ED2701 /* Pods-CryptoKit-iOS.release.xcconfig */; };
+		F5FB346C2245E4B700ED2701 /* Pods-CryptoKit-iOS.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34102245E4B700ED2701 /* Pods-CryptoKit-iOS.release.xcconfig */; };
+		F5FB346D2245E4B700ED2701 /* Pods-CryptoKit-iOS.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34102245E4B700ED2701 /* Pods-CryptoKit-iOS.release.xcconfig */; };
+		F5FB346E2245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34112245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.markdown */; };
+		F5FB346F2245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34112245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.markdown */; };
+		F5FB34702245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34112245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.markdown */; };
+		F5FB34712245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34112245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.markdown */; };
+		F5FB34722245E4B700ED2701 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34122245E4B700ED2701 /* Manifest.lock */; };
+		F5FB34732245E4B700ED2701 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34122245E4B700ED2701 /* Manifest.lock */; };
+		F5FB34742245E4B700ED2701 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34122245E4B700ED2701 /* Manifest.lock */; };
+		F5FB34752245E4B700ED2701 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = F5FB34122245E4B700ED2701 /* Manifest.lock */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +240,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = F559679A2242A68C0000368C;
 			remoteInfo = "Example-iOS";
+		};
+		F5FB34182245E4B700ED2701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5FB33F32245E4B700ED2701 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F05468A2D6DC6318300802C463EC84D5;
+			remoteInfo = "Pods-CryptoKit-iOS";
+		};
+		F5FB341A2245E4B700ED2701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5FB33F32245E4B700ED2701 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 77616DC9D49EED701C560B52E44B2E87;
+			remoteInfo = "Pods-CryptoKit-tvOS";
+		};
+		F5FB341C2245E4B700ED2701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5FB33F32245E4B700ED2701 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57A0DDFF6CCEF121D7D850C962380D0A;
+			remoteInfo = "Pods-CryptoKit-watchOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -225,6 +334,32 @@
 		F5D85859223D314F003350B9 /* PublicKey+Rsa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PublicKey+Rsa.swift"; sourceTree = "<group>"; };
 		F5D8586B223D6F3D003350B9 /* RsaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RsaTests.swift; sourceTree = "<group>"; };
 		F5D8586D223D6F3D003350B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5FB33F32245E4B700ED2701 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		F5FB33F82245E4B700ED2701 /* Pods-CryptoKit-watchOS-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoKit-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		F5FB33F92245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-CryptoKit-watchOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5FB33FA2245E4B700ED2701 /* Pods-CryptoKit-watchOS.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CryptoKit-watchOS.modulemap"; sourceTree = "<group>"; };
+		F5FB33FB2245E4B700ED2701 /* Pods-CryptoKit-watchOS.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-CryptoKit-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F5FB33FC2245E4B700ED2701 /* Pods-CryptoKit-watchOS.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-CryptoKit-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		F5FB33FD2245E4B700ED2701 /* Pods-CryptoKit-watchOS-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoKit-watchOS-dummy.m"; sourceTree = "<group>"; };
+		F5FB33FE2245E4B700ED2701 /* Pods-CryptoKit-watchOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-CryptoKit-watchOS-Info.plist"; sourceTree = "<group>"; };
+		F5FB33FF2245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-CryptoKit-watchOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5FB34012245E4B700ED2701 /* Pods-CryptoKit-tvOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-CryptoKit-tvOS-Info.plist"; sourceTree = "<group>"; };
+		F5FB34022245E4B700ED2701 /* Pods-CryptoKit-tvOS.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-CryptoKit-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F5FB34032245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-CryptoKit-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5FB34042245E4B700ED2701 /* Pods-CryptoKit-tvOS.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-CryptoKit-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F5FB34052245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-CryptoKit-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5FB34062245E4B700ED2701 /* Pods-CryptoKit-tvOS.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CryptoKit-tvOS.modulemap"; sourceTree = "<group>"; };
+		F5FB34072245E4B700ED2701 /* Pods-CryptoKit-tvOS-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoKit-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		F5FB34082245E4B700ED2701 /* Pods-CryptoKit-tvOS-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoKit-tvOS-dummy.m"; sourceTree = "<group>"; };
+		F5FB340A2245E4B700ED2701 /* Pods-CryptoKit-iOS-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoKit-iOS-dummy.m"; sourceTree = "<group>"; };
+		F5FB340B2245E4B700ED2701 /* Pods-CryptoKit-iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-CryptoKit-iOS-Info.plist"; sourceTree = "<group>"; };
+		F5FB340C2245E4B700ED2701 /* Pods-CryptoKit-iOS.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-CryptoKit-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F5FB340D2245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-CryptoKit-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5FB340E2245E4B700ED2701 /* Pods-CryptoKit-iOS-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoKit-iOS-umbrella.h"; sourceTree = "<group>"; };
+		F5FB340F2245E4B700ED2701 /* Pods-CryptoKit-iOS.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CryptoKit-iOS.modulemap"; sourceTree = "<group>"; };
+		F5FB34102245E4B700ED2701 /* Pods-CryptoKit-iOS.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-CryptoKit-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		F5FB34112245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-CryptoKit-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5FB34122245E4B700ED2701 /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -320,7 +455,6 @@
 				950449436BDDEA24DCAB5E61 /* Pods-CryptoKit-watchOS.debug.xcconfig */,
 				E48684D0B2C76730577AB901 /* Pods-CryptoKit-watchOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -447,6 +581,7 @@
 			children = (
 				F5D857AE223CF081003350B9 /* CryptoKit.h */,
 				F5D857AF223CF081003350B9 /* Info.plist */,
+				F5FB33F22245E4B700ED2701 /* Pods */,
 				F55967E32244D3A10000368C /* Docs */,
 				F5471FD622409475000EBC82 /* AES */,
 				F59CED8F223E8482007CF454 /* RSA */,
@@ -467,6 +602,97 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
+		F5FB33F22245E4B700ED2701 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB33F32245E4B700ED2701 /* Pods.xcodeproj */,
+				F5FB33F62245E4B700ED2701 /* Target Support Files */,
+				F5FB34122245E4B700ED2701 /* Manifest.lock */,
+				F5FB34132245E4B700ED2701 /* Local Podspecs */,
+				F5FB34142245E4B700ED2701 /* Headers */,
+			);
+			path = Pods;
+			sourceTree = SOURCE_ROOT;
+		};
+		F5FB33F42245E4B700ED2701 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB34192245E4B700ED2701 /* Pods_CryptoKit_iOS.framework */,
+				F5FB341B2245E4B700ED2701 /* Pods_CryptoKit_tvOS.framework */,
+				F5FB341D2245E4B700ED2701 /* Pods_CryptoKit_watchOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5FB33F62245E4B700ED2701 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB33F72245E4B700ED2701 /* Pods-CryptoKit-watchOS */,
+				F5FB34002245E4B700ED2701 /* Pods-CryptoKit-tvOS */,
+				F5FB34092245E4B700ED2701 /* Pods-CryptoKit-iOS */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		F5FB33F72245E4B700ED2701 /* Pods-CryptoKit-watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB33F82245E4B700ED2701 /* Pods-CryptoKit-watchOS-umbrella.h */,
+				F5FB33F92245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.plist */,
+				F5FB33FA2245E4B700ED2701 /* Pods-CryptoKit-watchOS.modulemap */,
+				F5FB33FB2245E4B700ED2701 /* Pods-CryptoKit-watchOS.debug.xcconfig */,
+				F5FB33FC2245E4B700ED2701 /* Pods-CryptoKit-watchOS.release.xcconfig */,
+				F5FB33FD2245E4B700ED2701 /* Pods-CryptoKit-watchOS-dummy.m */,
+				F5FB33FE2245E4B700ED2701 /* Pods-CryptoKit-watchOS-Info.plist */,
+				F5FB33FF2245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.markdown */,
+			);
+			path = "Pods-CryptoKit-watchOS";
+			sourceTree = "<group>";
+		};
+		F5FB34002245E4B700ED2701 /* Pods-CryptoKit-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB34012245E4B700ED2701 /* Pods-CryptoKit-tvOS-Info.plist */,
+				F5FB34022245E4B700ED2701 /* Pods-CryptoKit-tvOS.debug.xcconfig */,
+				F5FB34032245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.plist */,
+				F5FB34042245E4B700ED2701 /* Pods-CryptoKit-tvOS.release.xcconfig */,
+				F5FB34052245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.markdown */,
+				F5FB34062245E4B700ED2701 /* Pods-CryptoKit-tvOS.modulemap */,
+				F5FB34072245E4B700ED2701 /* Pods-CryptoKit-tvOS-umbrella.h */,
+				F5FB34082245E4B700ED2701 /* Pods-CryptoKit-tvOS-dummy.m */,
+			);
+			path = "Pods-CryptoKit-tvOS";
+			sourceTree = "<group>";
+		};
+		F5FB34092245E4B700ED2701 /* Pods-CryptoKit-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB340A2245E4B700ED2701 /* Pods-CryptoKit-iOS-dummy.m */,
+				F5FB340B2245E4B700ED2701 /* Pods-CryptoKit-iOS-Info.plist */,
+				F5FB340C2245E4B700ED2701 /* Pods-CryptoKit-iOS.debug.xcconfig */,
+				F5FB340D2245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.plist */,
+				F5FB340E2245E4B700ED2701 /* Pods-CryptoKit-iOS-umbrella.h */,
+				F5FB340F2245E4B700ED2701 /* Pods-CryptoKit-iOS.modulemap */,
+				F5FB34102245E4B700ED2701 /* Pods-CryptoKit-iOS.release.xcconfig */,
+				F5FB34112245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.markdown */,
+			);
+			path = "Pods-CryptoKit-iOS";
+			sourceTree = "<group>";
+		};
+		F5FB34132245E4B700ED2701 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		F5FB34142245E4B700ED2701 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -474,6 +700,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5FB34662245E4B700ED2701 /* Pods-CryptoKit-iOS-umbrella.h in Headers */,
+				F5FB341E2245E4B700ED2701 /* Pods-CryptoKit-watchOS-umbrella.h in Headers */,
+				F5FB344E2245E4B700ED2701 /* Pods-CryptoKit-tvOS-umbrella.h in Headers */,
 				F54720D4224215FD000EBC82 /* CryptoKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +711,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5FB34672245E4B700ED2701 /* Pods-CryptoKit-iOS-umbrella.h in Headers */,
+				F5FB341F2245E4B700ED2701 /* Pods-CryptoKit-watchOS-umbrella.h in Headers */,
+				F5FB344F2245E4B700ED2701 /* Pods-CryptoKit-tvOS-umbrella.h in Headers */,
 				F54720D6224215FE000EBC82 /* CryptoKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +722,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5FB34682245E4B700ED2701 /* Pods-CryptoKit-iOS-umbrella.h in Headers */,
+				F5FB34202245E4B700ED2701 /* Pods-CryptoKit-watchOS-umbrella.h in Headers */,
+				F5FB34502245E4B700ED2701 /* Pods-CryptoKit-tvOS-umbrella.h in Headers */,
 				F54720D8224215FF000EBC82 /* CryptoKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +733,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5FB34692245E4B700ED2701 /* Pods-CryptoKit-iOS-umbrella.h in Headers */,
+				F5FB34212245E4B700ED2701 /* Pods-CryptoKit-watchOS-umbrella.h in Headers */,
+				F5FB34512245E4B700ED2701 /* Pods-CryptoKit-tvOS-umbrella.h in Headers */,
 				F54720DA22421600000EBC82 /* CryptoKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -723,6 +961,12 @@
 			mainGroup = F5D857A1223CF081003350B9;
 			productRefGroup = F5D857AC223CF081003350B9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F5FB33F42245E4B700ED2701 /* Products */;
+					ProjectRef = F5FB33F32245E4B700ED2701 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F54720A12242118F000EBC82 /* CryptoKit-macOS */,
@@ -738,11 +982,51 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		F5FB34192245E4B700ED2701 /* Pods_CryptoKit_iOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_CryptoKit_iOS.framework;
+			remoteRef = F5FB34182245E4B700ED2701 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5FB341B2245E4B700ED2701 /* Pods_CryptoKit_tvOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_CryptoKit_tvOS.framework;
+			remoteRef = F5FB341A2245E4B700ED2701 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5FB341D2245E4B700ED2701 /* Pods_CryptoKit_watchOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_CryptoKit_watchOS.framework;
+			remoteRef = F5FB341C2245E4B700ED2701 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		F54720A02242118F000EBC82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5FB346E2245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.markdown in Resources */,
+				F5FB345A2245E4B700ED2701 /* Pods-CryptoKit-iOS-Info.plist in Resources */,
+				F5FB343A2245E4B700ED2701 /* Pods-CryptoKit-tvOS-Info.plist in Resources */,
+				F5FB34422245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.plist in Resources */,
+				F5FB345E2245E4B700ED2701 /* Pods-CryptoKit-iOS.debug.xcconfig in Resources */,
+				F5FB34362245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.markdown in Resources */,
+				F5FB343E2245E4B700ED2701 /* Pods-CryptoKit-tvOS.debug.xcconfig in Resources */,
+				F5FB34222245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.plist in Resources */,
+				F5FB34462245E4B700ED2701 /* Pods-CryptoKit-tvOS.release.xcconfig in Resources */,
+				F5FB34622245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.plist in Resources */,
+				F5FB342A2245E4B700ED2701 /* Pods-CryptoKit-watchOS.release.xcconfig in Resources */,
+				F5FB34722245E4B700ED2701 /* Manifest.lock in Resources */,
+				F5FB34322245E4B700ED2701 /* Pods-CryptoKit-watchOS-Info.plist in Resources */,
+				F5FB346A2245E4B700ED2701 /* Pods-CryptoKit-iOS.release.xcconfig in Resources */,
+				F5FB34262245E4B700ED2701 /* Pods-CryptoKit-watchOS.debug.xcconfig in Resources */,
+				F5FB344A2245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,6 +1034,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5FB346F2245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.markdown in Resources */,
+				F5FB345B2245E4B700ED2701 /* Pods-CryptoKit-iOS-Info.plist in Resources */,
+				F5FB343B2245E4B700ED2701 /* Pods-CryptoKit-tvOS-Info.plist in Resources */,
+				F5FB34432245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.plist in Resources */,
+				F5FB345F2245E4B700ED2701 /* Pods-CryptoKit-iOS.debug.xcconfig in Resources */,
+				F5FB34372245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.markdown in Resources */,
+				F5FB343F2245E4B700ED2701 /* Pods-CryptoKit-tvOS.debug.xcconfig in Resources */,
+				F5FB34232245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.plist in Resources */,
+				F5FB34472245E4B700ED2701 /* Pods-CryptoKit-tvOS.release.xcconfig in Resources */,
+				F5FB34632245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.plist in Resources */,
+				F5FB342B2245E4B700ED2701 /* Pods-CryptoKit-watchOS.release.xcconfig in Resources */,
+				F5FB34732245E4B700ED2701 /* Manifest.lock in Resources */,
+				F5FB34332245E4B700ED2701 /* Pods-CryptoKit-watchOS-Info.plist in Resources */,
+				F5FB346B2245E4B700ED2701 /* Pods-CryptoKit-iOS.release.xcconfig in Resources */,
+				F5FB34272245E4B700ED2701 /* Pods-CryptoKit-watchOS.debug.xcconfig in Resources */,
+				F5FB344B2245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -757,6 +1057,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5FB34702245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.markdown in Resources */,
+				F5FB345C2245E4B700ED2701 /* Pods-CryptoKit-iOS-Info.plist in Resources */,
+				F5FB343C2245E4B700ED2701 /* Pods-CryptoKit-tvOS-Info.plist in Resources */,
+				F5FB34442245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.plist in Resources */,
+				F5FB34602245E4B700ED2701 /* Pods-CryptoKit-iOS.debug.xcconfig in Resources */,
+				F5FB34382245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.markdown in Resources */,
+				F5FB34402245E4B700ED2701 /* Pods-CryptoKit-tvOS.debug.xcconfig in Resources */,
+				F5FB34242245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.plist in Resources */,
+				F5FB34482245E4B700ED2701 /* Pods-CryptoKit-tvOS.release.xcconfig in Resources */,
+				F5FB34642245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.plist in Resources */,
+				F5FB342C2245E4B700ED2701 /* Pods-CryptoKit-watchOS.release.xcconfig in Resources */,
+				F5FB34742245E4B700ED2701 /* Manifest.lock in Resources */,
+				F5FB34342245E4B700ED2701 /* Pods-CryptoKit-watchOS-Info.plist in Resources */,
+				F5FB346C2245E4B700ED2701 /* Pods-CryptoKit-iOS.release.xcconfig in Resources */,
+				F5FB34282245E4B700ED2701 /* Pods-CryptoKit-watchOS.debug.xcconfig in Resources */,
+				F5FB344C2245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -764,6 +1080,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5FB34712245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.markdown in Resources */,
+				F5FB345D2245E4B700ED2701 /* Pods-CryptoKit-iOS-Info.plist in Resources */,
+				F5FB343D2245E4B700ED2701 /* Pods-CryptoKit-tvOS-Info.plist in Resources */,
+				F5FB34452245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.plist in Resources */,
+				F5FB34612245E4B700ED2701 /* Pods-CryptoKit-iOS.debug.xcconfig in Resources */,
+				F5FB34392245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.markdown in Resources */,
+				F5FB34412245E4B700ED2701 /* Pods-CryptoKit-tvOS.debug.xcconfig in Resources */,
+				F5FB34252245E4B700ED2701 /* Pods-CryptoKit-watchOS-acknowledgements.plist in Resources */,
+				F5FB34492245E4B700ED2701 /* Pods-CryptoKit-tvOS.release.xcconfig in Resources */,
+				F5FB34652245E4B700ED2701 /* Pods-CryptoKit-iOS-acknowledgements.plist in Resources */,
+				F5FB342D2245E4B700ED2701 /* Pods-CryptoKit-watchOS.release.xcconfig in Resources */,
+				F5FB34752245E4B700ED2701 /* Manifest.lock in Resources */,
+				F5FB34352245E4B700ED2701 /* Pods-CryptoKit-watchOS-Info.plist in Resources */,
+				F5FB346D2245E4B700ED2701 /* Pods-CryptoKit-iOS.release.xcconfig in Resources */,
+				F5FB34292245E4B700ED2701 /* Pods-CryptoKit-watchOS.debug.xcconfig in Resources */,
+				F5FB344D2245E4B700ED2701 /* Pods-CryptoKit-tvOS-acknowledgements.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -888,6 +1220,7 @@
 				F54721072242164D000EBC82 /* Algorithm.swift in Sources */,
 				F54720FF2242164D000EBC82 /* RSACryptor.swift in Sources */,
 				F54721022242164D000EBC82 /* Random.swift in Sources */,
+				F5FB342E2245E4B700ED2701 /* Pods-CryptoKit-watchOS-dummy.m in Sources */,
 				F55967DF2244D2C80000368C /* Hash.swift in Sources */,
 				F54720E822421621000EBC82 /* PrivateKey+Rsa.swift in Sources */,
 				F54721042242164D000EBC82 /* CCError.swift in Sources */,
@@ -896,8 +1229,10 @@
 				F54720F422421631000EBC82 /* SymmetricKey.swift in Sources */,
 				F54721062242164D000EBC82 /* Key.swift in Sources */,
 				F54721052242164D000EBC82 /* ASN1.swift in Sources */,
+				F5FB34522245E4B700ED2701 /* Pods-CryptoKit-tvOS-dummy.m in Sources */,
 				F54720DF2242160B000EBC82 /* SymmetricKey+Aes.swift in Sources */,
 				F54721032242164D000EBC82 /* KeychainError.swift in Sources */,
+				F5FB34562245E4B700ED2701 /* Pods-CryptoKit-iOS-dummy.m in Sources */,
 				F54720F222421631000EBC82 /* PublicKey.swift in Sources */,
 				F54720E722421621000EBC82 /* PublicKey+Rsa.swift in Sources */,
 				F54720F322421631000EBC82 /* PrivateKey.swift in Sources */,
@@ -915,6 +1250,7 @@
 				F54721122242164E000EBC82 /* Algorithm.swift in Sources */,
 				F547210A2242164E000EBC82 /* RSACryptor.swift in Sources */,
 				F547210D2242164E000EBC82 /* Random.swift in Sources */,
+				F5FB342F2245E4B700ED2701 /* Pods-CryptoKit-watchOS-dummy.m in Sources */,
 				F55967E02244D2C90000368C /* Hash.swift in Sources */,
 				F54720EB22421622000EBC82 /* PrivateKey+Rsa.swift in Sources */,
 				F547210F2242164E000EBC82 /* CCError.swift in Sources */,
@@ -923,8 +1259,10 @@
 				F54720F722421632000EBC82 /* SymmetricKey.swift in Sources */,
 				F54721112242164E000EBC82 /* Key.swift in Sources */,
 				F54721102242164E000EBC82 /* ASN1.swift in Sources */,
+				F5FB34532245E4B700ED2701 /* Pods-CryptoKit-tvOS-dummy.m in Sources */,
 				F54720DD2242160A000EBC82 /* SymmetricKey+Aes.swift in Sources */,
 				F547210E2242164E000EBC82 /* KeychainError.swift in Sources */,
+				F5FB34572245E4B700ED2701 /* Pods-CryptoKit-iOS-dummy.m in Sources */,
 				F54720F522421632000EBC82 /* PublicKey.swift in Sources */,
 				F54720EA22421622000EBC82 /* PublicKey+Rsa.swift in Sources */,
 				F54720F622421632000EBC82 /* PrivateKey.swift in Sources */,
@@ -942,6 +1280,7 @@
 				F547211D2242164F000EBC82 /* Algorithm.swift in Sources */,
 				F54721152242164F000EBC82 /* RSACryptor.swift in Sources */,
 				F54721182242164F000EBC82 /* Random.swift in Sources */,
+				F5FB34302245E4B700ED2701 /* Pods-CryptoKit-watchOS-dummy.m in Sources */,
 				F55967E12244D2CA0000368C /* Hash.swift in Sources */,
 				F54720EE22421623000EBC82 /* PrivateKey+Rsa.swift in Sources */,
 				F547211A2242164F000EBC82 /* CCError.swift in Sources */,
@@ -950,8 +1289,10 @@
 				F54720FA22421632000EBC82 /* SymmetricKey.swift in Sources */,
 				F547211C2242164F000EBC82 /* Key.swift in Sources */,
 				F547211B2242164F000EBC82 /* ASN1.swift in Sources */,
+				F5FB34542245E4B700ED2701 /* Pods-CryptoKit-tvOS-dummy.m in Sources */,
 				F54720E12242160C000EBC82 /* SymmetricKey+Aes.swift in Sources */,
 				F54721192242164F000EBC82 /* KeychainError.swift in Sources */,
+				F5FB34582245E4B700ED2701 /* Pods-CryptoKit-iOS-dummy.m in Sources */,
 				F54720F822421632000EBC82 /* PublicKey.swift in Sources */,
 				F54720ED22421623000EBC82 /* PublicKey+Rsa.swift in Sources */,
 				F54720F922421632000EBC82 /* PrivateKey.swift in Sources */,
@@ -969,6 +1310,7 @@
 				F547212822421650000EBC82 /* Algorithm.swift in Sources */,
 				F547212022421650000EBC82 /* RSACryptor.swift in Sources */,
 				F547212322421650000EBC82 /* Random.swift in Sources */,
+				F5FB34312245E4B700ED2701 /* Pods-CryptoKit-watchOS-dummy.m in Sources */,
 				F55967E22244D2CA0000368C /* Hash.swift in Sources */,
 				F54720F122421623000EBC82 /* PrivateKey+Rsa.swift in Sources */,
 				F547212522421650000EBC82 /* CCError.swift in Sources */,
@@ -977,8 +1319,10 @@
 				F54720FD22421633000EBC82 /* SymmetricKey.swift in Sources */,
 				F547212722421650000EBC82 /* Key.swift in Sources */,
 				F547212622421650000EBC82 /* ASN1.swift in Sources */,
+				F5FB34552245E4B700ED2701 /* Pods-CryptoKit-tvOS-dummy.m in Sources */,
 				F54720E52242160F000EBC82 /* SymmetricKey+Aes.swift in Sources */,
 				F547212422421650000EBC82 /* KeychainError.swift in Sources */,
+				F5FB34592245E4B700ED2701 /* Pods-CryptoKit-iOS-dummy.m in Sources */,
 				F54720FB22421633000EBC82 /* PublicKey.swift in Sources */,
 				F54720F022421623000EBC82 /* PublicKey+Rsa.swift in Sources */,
 				F54720FC22421633000EBC82 /* PrivateKey.swift in Sources */,
