@@ -2,8 +2,8 @@
 
 [![Build Status](https://travis-ci.org/noahCLZ/CryptoKit.svg?branch=master)](https://travis-ci.org/noahCLZ/CryptoKit) 
 ![platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20tvOS%20%7C%20watchOS-informational.svg) 
-![pod](https://img.shields.io/cocoapods/v/CryptoKit+.svg)
-
+![pod](https://img.shields.io/cocoapods/v/CryptoKit+.svg) 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 CryptoKit is a wrapper of Apple's CommonCrypto library including the most used functionalities only.
 
