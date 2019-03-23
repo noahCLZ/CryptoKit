@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11506F8675B439CC0F2A5EA8 /* Pods_CryptoKit_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FCB5AC12C3B4DA85859BC8 /* Pods_CryptoKit_watchOS.framework */; };
+		4CD70408C39CB71D087D9F72 /* Pods_CryptoKit_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E412CDE99BDDC65FFB987637 /* Pods_CryptoKit_tvOS.framework */; };
+		D3F0AFD884F11ED1B69DC4BD /* Pods_CryptoKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B8D32A54DF28B3FACE9913 /* Pods_CryptoKit_iOS.framework */; };
 		F54720D4224215FD000EBC82 /* CryptoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D857AE223CF081003350B9 /* CryptoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F54720D6224215FE000EBC82 /* CryptoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D857AE223CF081003350B9 /* CryptoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F54720D8224215FF000EBC82 /* CryptoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D857AE223CF081003350B9 /* CryptoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -166,6 +169,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F4EBBE61DEA2285A760110A /* Pods-CryptoKit-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoKit-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CryptoKit-tvOS/Pods-CryptoKit-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2F8B4F8E7A332009AFE2B9F2 /* Pods-CryptoKit-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoKit-iOS.debug.xcconfig"; path = "Target Support Files/Pods-CryptoKit-iOS/Pods-CryptoKit-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		49B8D32A54DF28B3FACE9913 /* Pods_CryptoKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C4F231058A4193633004FC5 /* Pods-CryptoKit-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoKit-iOS.release.xcconfig"; path = "Target Support Files/Pods-CryptoKit-iOS/Pods-CryptoKit-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		950449436BDDEA24DCAB5E61 /* Pods-CryptoKit-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoKit-watchOS.debug.xcconfig"; path = "Target Support Files/Pods-CryptoKit-watchOS/Pods-CryptoKit-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A0A4ADBD6AE643EDFD54D479 /* Pods-CryptoKit-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoKit-tvOS.release.xcconfig"; path = "Target Support Files/Pods-CryptoKit-tvOS/Pods-CryptoKit-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		D0FCB5AC12C3B4DA85859BC8 /* Pods_CryptoKit_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoKit_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E412CDE99BDDC65FFB987637 /* Pods_CryptoKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoKit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48684D0B2C76730577AB901 /* Pods-CryptoKit-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoKit-watchOS.release.xcconfig"; path = "Target Support Files/Pods-CryptoKit-watchOS/Pods-CryptoKit-watchOS.release.xcconfig"; sourceTree = "<group>"; };
 		F5471FCE22408471000EBC82 /* Aes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aes.swift; sourceTree = "<group>"; };
 		F5471FD022408534000EBC82 /* Cryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptor.swift; sourceTree = "<group>"; };
 		F5471FD22240891F000EBC82 /* BlockCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockCipher.swift; sourceTree = "<group>"; };
@@ -227,6 +239,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11506F8675B439CC0F2A5EA8 /* Pods_CryptoKit_watchOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +247,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD70408C39CB71D087D9F72 /* Pods_CryptoKit_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +255,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F0AFD884F11ED1B69DC4BD /* Pods_CryptoKit_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +300,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B339650484EEF07FDC74EB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49B8D32A54DF28B3FACE9913 /* Pods_CryptoKit_iOS.framework */,
+				E412CDE99BDDC65FFB987637 /* Pods_CryptoKit_tvOS.framework */,
+				D0FCB5AC12C3B4DA85859BC8 /* Pods_CryptoKit_watchOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B18E527DBDDF9EB74D37E34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F8B4F8E7A332009AFE2B9F2 /* Pods-CryptoKit-iOS.debug.xcconfig */,
+				7C4F231058A4193633004FC5 /* Pods-CryptoKit-iOS.release.xcconfig */,
+				1F4EBBE61DEA2285A760110A /* Pods-CryptoKit-tvOS.debug.xcconfig */,
+				A0A4ADBD6AE643EDFD54D479 /* Pods-CryptoKit-tvOS.release.xcconfig */,
+				950449436BDDEA24DCAB5E61 /* Pods-CryptoKit-watchOS.debug.xcconfig */,
+				E48684D0B2C76730577AB901 /* Pods-CryptoKit-watchOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F5471FD622409475000EBC82 /* AES */ = {
 			isa = PBXGroup;
 			children = (
@@ -382,6 +421,8 @@
 				F55967892242A6490000368C /* Example-tvOS */,
 				F559679C2242A68C0000368C /* Example-iOS */,
 				F5D857AC223CF081003350B9 /* Products */,
+				4B18E527DBDDF9EB74D37E34 /* Pods */,
+				1B339650484EEF07FDC74EB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -486,6 +527,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F54720B422421244000EBC82 /* Build configuration list for PBXNativeTarget "CryptoKit-watchOS" */;
 			buildPhases = (
+				AF95CD30C3181AA6F7CD1945 /* [CP] Check Pods Manifest.lock */,
 				F54720AA22421244000EBC82 /* Headers */,
 				F54720AB22421244000EBC82 /* Sources */,
 				F54720AC22421244000EBC82 /* Frameworks */,
@@ -504,6 +546,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F54720C122421276000EBC82 /* Build configuration list for PBXNativeTarget "CryptoKit-tvOS" */;
 			buildPhases = (
+				9780F8B37DC70AB6610D5C35 /* [CP] Check Pods Manifest.lock */,
 				F54720B722421276000EBC82 /* Headers */,
 				F54720B822421276000EBC82 /* Sources */,
 				F54720B922421276000EBC82 /* Frameworks */,
@@ -522,6 +565,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F54720CE22421371000EBC82 /* Build configuration list for PBXNativeTarget "CryptoKit-iOS" */;
 			buildPhases = (
+				5BDD32E1AB97E6280E033999 /* [CP] Check Pods Manifest.lock */,
 				F54720C422421371000EBC82 /* Headers */,
 				F54720C522421371000EBC82 /* Sources */,
 				F54720C622421371000EBC82 /* Frameworks */,
@@ -764,6 +808,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BDD32E1AB97E6280E033999 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoKit-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9780F8B37DC70AB6610D5C35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoKit-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF95CD30C3181AA6F7CD1945 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoKit-watchOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F547209E2242118F000EBC82 /* Sources */ = {
@@ -1040,6 +1153,7 @@
 		};
 		F54720B522421244000EBC82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950449436BDDEA24DCAB5E61 /* Pods-CryptoKit-watchOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1067,6 +1181,7 @@
 		};
 		F54720B622421244000EBC82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E48684D0B2C76730577AB901 /* Pods-CryptoKit-watchOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1094,6 +1209,7 @@
 		};
 		F54720C222421276000EBC82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F4EBBE61DEA2285A760110A /* Pods-CryptoKit-tvOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -1120,6 +1236,7 @@
 		};
 		F54720C322421276000EBC82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A4ADBD6AE643EDFD54D479 /* Pods-CryptoKit-tvOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -1146,6 +1263,7 @@
 		};
 		F54720CF22421371000EBC82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F8B4F8E7A332009AFE2B9F2 /* Pods-CryptoKit-iOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
@@ -1173,6 +1291,7 @@
 		};
 		F54720D022421371000EBC82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4F231058A4193633004FC5 /* Pods-CryptoKit-iOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;

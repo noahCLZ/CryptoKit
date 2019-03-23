@@ -1,0 +1,6 @@
+framework module Pods_CryptoKit_tvOS {
+  umbrella header "Pods-CryptoKit-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
