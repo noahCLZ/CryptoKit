@@ -20,7 +20,7 @@ public extension PrivateKey where A: Rsa {
          - data: Cipher data.
          - hash: Hash function, of type Algorithm.Hash.
     */
-    public func decrypt(_ data: Data, hash: Hash?) throws -> Data {
+    func decrypt(_ data: Data, hash: Hash?) throws -> Data {
         
         // 0. locate private key
         
@@ -79,7 +79,7 @@ public extension PrivateKey where A: Rsa {
         return buffer
     }
     
-    public func sign(_ data: Data, hash: Hash) throws -> Data {
+    func sign(_ data: Data, hash: Hash) throws -> Data {
         
         // 0. locate private key
         

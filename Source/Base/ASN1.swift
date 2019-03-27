@@ -87,7 +87,7 @@ struct ASN1 {
     static func wrap(type: UInt8, followingData: Data) -> Data {
         var adjustedFollowingData = followingData
         if type == 0x03 {
-            adjustedFollowingData = Data(bytes: [0]) + followingData // 前面補0
+            adjustedFollowingData = Data([0]) + followingData // add prefix 0
         }
         let lengthOfAdjustedFollowingData = adjustedFollowingData.count
         let first: UInt8 = type
@@ -105,12 +105,12 @@ struct ASN1 {
             let fourth: UInt8 = UInt8(lengthOfAdjustedFollowingData & 0xFF)
             bytes = [first, second, third, fourth]
         }
-        return Data(bytes: bytes) + adjustedFollowingData
+        return Data(bytes) + adjustedFollowingData
     }
     
     static func rsaOID() -> Data {
         var bytes = [UInt8]()
         bytes = [0x06, 0x09, 0x2A, 0x86, 0x48, 0x86, 0xF7, 0x0D, 0x01, 0x01, 0x01, 0x05, 0x00]
-        return Data(bytes: bytes)
+        return Data(bytes)
     }
 }

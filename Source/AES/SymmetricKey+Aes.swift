@@ -11,7 +11,7 @@ import Foundation
 public extension SymmetricKey where A: Aes {
     
     /// Perform encryption with PKCS7 padding
-    public func encrypt(_ data: Data, mode: BlockCipher.Mode) throws -> Data {
+    func encrypt(_ data: Data, mode: BlockCipher.Mode) throws -> Data {
         
         // 0. locate key
         
@@ -28,7 +28,7 @@ public extension SymmetricKey where A: Aes {
     }
     
     /// Perform decryption with PKCS7 padding
-    public func decrypt(_ data: Data, mode: BlockCipher.Mode) throws -> Data {
+    func decrypt(_ data: Data, mode: BlockCipher.Mode) throws -> Data {
         
         // 0. locate key
         

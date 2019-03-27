@@ -58,7 +58,7 @@ open class BlockCipher {
         var result = Data(count: needed)
         var resultCount = result.count
         var updateLen: size_t = 0
-        status = result.withUnsafeMutableBytes({ (resultBytes: UnsafeMutablePointer<UInt8>) -> CCCryptorStatus in
+        status = result.withUnsafeMutableBytes({ (resultBytes) -> CCCryptorStatus in
             return cryptor.update!(
                 ref!,
                 (data as NSData).bytes, data.count,
