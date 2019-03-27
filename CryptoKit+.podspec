@@ -18,4 +18,6 @@ CryptoKit is a wrapper of Apple's CommonCrypto library including the most used f
   spec.source       = { :git => "https://github.com/noahCLZ/CryptoKit.git", :tag => "#{spec.version}" }
   spec.source_files  = "Source/**/*.{swift,h,m}"
   spec.frameworks = "Foundation"
+  spec.swift_version = "5.0"
+
 end
