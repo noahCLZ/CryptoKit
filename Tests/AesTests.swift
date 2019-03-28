@@ -91,6 +91,27 @@ class AesTests: XCTestCase {
             XCTFail(error.localizedDescription)
         }
     }
+    
+    func testLocate() {
+        do {
+            let keyText = "jkjkjkjkarfghyui"
+            let keyData = keyText.data(using: .utf8)!
+            let ivData = Data(repeating: 8, count: 16)
+            let k = try Aes().import(key: keyData, iv: ivData, storeTag: "testLocate")
+            let key = try k.exportKey()
+            let iv = try k.exportIV()
+            XCTAssert(keyData == key && iv == ivData, "Wrong result")
+            
+            let k2 = try Aes().locateKey(storeTag: "testLocate")
+            let key2 = try k2.exportKey()
+            let iv2 = try k2.exportIV()
+            XCTAssert(key2 == key && iv2 == iv, "Wrong result")
+            
+        } catch {
+            XCTFail(error.localizedDescription)
+        }
+    }
+
 
 
 }

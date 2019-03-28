@@ -53,4 +53,23 @@ public extension Aes {
         }
         return KEY
     }
+    
+    func locateKey(storeTag: String) throws -> SymmetricKey<Aes> {
+        let KEY = SymmetricKey(algorithm: self, userStoreTag: storeTag)
+        let IV = SymmetricKey(algorithm: self, userStoreTag: storeTag + "IV")
+        
+        var keyData: Data = Data()
+        var ivData: Data = Data()
+        var status = KEY.locateData(output: &keyData)
+        guard status == noErr else {
+            throw KeychainError.code(status)
+        }
+        
+        status = IV.locateData(output: &ivData)
+        guard status == noErr else {
+            throw KeychainError.code(status)
+        }
+        
+        return try Aes().import(key: keyData, iv: ivData, storeTag: storeTag)
+    }
 }
